@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[    109536,       2179]
-NotebookOptionsPosition[    108506,       2143]
-NotebookOutlinePosition[    109248,       2169]
-CellTagsIndexPosition[    109205,       2166]
+NotebookDataLength[    109570,       2178]
+NotebookOptionsPosition[    108540,       2142]
+NotebookOutlinePosition[    109282,       2168]
+CellTagsIndexPosition[    109239,       2165]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -17,8 +17,8 @@ Cell[BoxData[
  RowBox[{"Get", "@", 
   RowBox[{
   "URLDownload", "[", 
-   "\"\<https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/master/src/\
-AO-App_GUI.wl\>\"", "]"}]}]], "Input",
+   "\"\<https://raw.githubusercontent.com/AppliedMechanicsLab/AO-Desktop-App/\
+master/src/AO-App_GUI.wl\>\"", "]"}]}]], "Input",
  ShowCellBracket->False,
  CellOpen->False,
  InitializationCell->True,
@@ -43,10 +43,9 @@ AO-App_GUI.wl\>\"", "]"}]}]], "Input",
    3.816405625252283*^9, 3.816405648990856*^9}, {3.816405935460279*^9, 
    3.816405952700551*^9}, {3.816406151659337*^9, 3.816406160574342*^9}, {
    3.8164061933385153`*^9, 3.816406235036021*^9}, {3.816406410738124*^9, 
-   3.816406420094366*^9}},
- Background->GrayLevel[1],
- CellLabel->
-  "In[135]:=",ExpressionUUID->"5fb4ffba-2f6a-4b19-9cc1-578bbaa58b1c"],
+   3.816406420094366*^9}, 3.816478179244911*^9},
+ Background->GrayLevel[
+  1],ExpressionUUID->"5fb4ffba-2f6a-4b19-9cc1-578bbaa58b1c"],
 
 Cell[BoxData[
  TagBox[
@@ -561,11 +560,11 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
              "Queued", ImageSize -> {400, 50}, BaseStyle -> {FontSize -> 18}], 
             Button[
             "AO-Algorithm Calculation (using example data)", \
-$CellContext`InputList = 
-              Map[StringJoin[
-                "/Users/wenqiangfang/Dropbox \
-(Brown)/Research/PatherApp/RBD_Code/SQRTAO_algorithm/FormatedData/Acc", 
-                 IntegerString[#], ".txt"]& , 
+$CellContext`InputList = Map[URLDownload[
+                 StringJoin[
+                 "https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/\
+master/ExampleData/Acc", 
+                  IntegerString[#], ".txt"]]& , 
                 Range[4]]; $CellContext`PosList = {{0, 0, 0.83}, {
                 0, 0.1, 0.75}, {0.15, 0, 0.75}, {-0.15, 0, 0.75}, {
                 0, 0, 0.67}}; $CellContext`DirerList = {{{1, 0, 0}, {0, 1, 
@@ -722,6 +721,7 @@ FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "],
                 Row[{
                   InputField[
                    Dynamic[Null], Number, FieldHint -> 
+                   
                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
 FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
                   InputField[
@@ -1046,11 +1046,11 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
              "Queued", ImageSize -> {400, 50}, BaseStyle -> {FontSize -> 18}], 
             Button[
             "AO-Algorithm Calculation (using example data)", \
-$CellContext`InputList = 
-              Map[StringJoin[
-                "/Users/wenqiangfang/Dropbox \
-(Brown)/Research/PatherApp/RBD_Code/SQRTAO_algorithm/FormatedData/Acc", 
-                 IntegerString[#], ".txt"]& , 
+$CellContext`InputList = Map[URLDownload[
+                 StringJoin[
+                 "https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/\
+master/ExampleData/Acc", 
+                  IntegerString[#], ".txt"]]& , 
                 Range[4]]; $CellContext`PosList = {{0, 0, 0.83}, {
                 0, 0.1, 0.75}, {0.15, 0, 0.75}, {-0.15, 0, 0.75}, {
                 0, 0, 0.67}}; $CellContext`DirerList = {{{1, 0, 0}, {0, 1, 
@@ -1259,11 +1259,11 @@ FontWeight->\"Plain\"]\) "],
 FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
                    InputField[
                     Dynamic[Null], Number, FieldHint -> 
+                    
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
 FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
                    InputField[
                     Dynamic[Null], Number, FieldHint -> 
-                    
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
 FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
                   Spacer[1]]}], 
@@ -1300,11 +1300,11 @@ FontWeight->\"Plain\"]\) "],
 FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
                    InputField[
                     Dynamic[Null], Number, FieldHint -> 
+                    
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
 FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
                    InputField[
                     Dynamic[Null], Number, FieldHint -> 
-                    
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
 FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
                   Spacer[1]]}], 
@@ -1476,8 +1476,7 @@ FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]},
                  Item["Data File: "], 
                  Button[
                  "Attach File", 
-                  Null = 
-                   SystemDialogInput[
+                  Null = SystemDialogInput[
                     "FileOpen", WindowTitle -> "Choose working directory"]; 
                   Null, Method -> "Queued", ImageSize -> 150]}]}, Center]}, 
             Spacer[10]], $CellContext`PointOfInterest = Grid[{{
@@ -1585,7 +1584,6 @@ $CellContext`\[Omega]z}; SRAO`LoadData[$CellContext`InputList];
 $CellContext`DirerList]; SRAO`SolveA[$CellContext`InitialAngVel]; 
                SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
 $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
-                  
                   SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
                    None}, 
                   DynamicModule[{}, 
@@ -1602,11 +1600,11 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
               BaseStyle -> {FontSize -> 18}], 
              Button[
              "AO-Algorithm Calculation (using example data)", \
-$CellContext`InputList = 
-               Map[StringJoin[
-                 "/Users/wenqiangfang/Dropbox \
-(Brown)/Research/PatherApp/RBD_Code/SQRTAO_algorithm/FormatedData/Acc", 
-                  IntegerString[#], ".txt"]& , 
+$CellContext`InputList = Map[URLDownload[
+                  StringJoin[
+                  "https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/\
+master/ExampleData/Acc", 
+                   IntegerString[#], ".txt"]]& , 
                  Range[4]]; $CellContext`PosList = {{0, 0, 0.83}, {
                  0, 0.1, 0.75}, {0.15, 0, 0.75}, {-0.15, 0, 0.75}, {
                  0, 0, 0.67}}; $CellContext`DirerList = {{{1, 0, 0}, {0, 1, 
@@ -1798,7 +1796,8 @@ FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]},
                  Item["Data File: "], 
                  Button[
                  "Attach File", 
-                  Null = SystemDialogInput[
+                  Null = 
+                   SystemDialogInput[
                     "FileOpen", WindowTitle -> "Choose working directory"]; 
                   Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
              Column[{
@@ -2088,11 +2087,11 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
               BaseStyle -> {FontSize -> 18}], 
              Button[
              "AO-Algorithm Calculation (using example data)", \
-$CellContext`InputList = 
-               Map[StringJoin[
-                 "/Users/wenqiangfang/Dropbox \
-(Brown)/Research/PatherApp/RBD_Code/SQRTAO_algorithm/FormatedData/Acc", 
-                  IntegerString[#], ".txt"]& , 
+$CellContext`InputList = Map[URLDownload[
+                  StringJoin[
+                  "https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/\
+master/ExampleData/Acc", 
+                   IntegerString[#], ".txt"]]& , 
                  Range[4]]; $CellContext`PosList = {{0, 0, 0.83}, {
                  0, 0.1, 0.75}, {0.15, 0, 0.75}, {-0.15, 0, 0.75}, {
                  0, 0, 0.67}}; $CellContext`DirerList = {{{1, 0, 0}, {0, 1, 
@@ -2136,9 +2135,9 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
    Deployed->True,
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
- CellChangeTimes->{3.8164068595572968`*^9, 3.816406923573676*^9},
- CellLabel->
-  "Out[135]=",ExpressionUUID->"72410c8a-6301-4903-9035-df7f331b47e2"]
+ CellChangeTimes->{3.8164068595572968`*^9, 3.816406923573676*^9, 
+  3.816478151213114*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"bd14db3e-cc81-4fb9-80be-eee7a029f70a"]
 }, Open  ]]
 },
 InitializationCellEvaluation->True,
@@ -2169,10 +2168,10 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[422, 15, 1943, 33, 19, "Input",ExpressionUUID->"5fb4ffba-2f6a-4b19-9cc1-578bbaa58b1c",
+Cell[422, 15, 1951, 32, 19, "Input",ExpressionUUID->"5fb4ffba-2f6a-4b19-9cc1-578bbaa58b1c",
  CellOpen->False,
  InitializationCell->True],
-Cell[2368, 50, 106122, 2090, 964, "Output",ExpressionUUID->"72410c8a-6301-4903-9035-df7f331b47e2"]
+Cell[2376, 49, 106148, 2090, 964, "Output",ExpressionUUID->"bd14db3e-cc81-4fb9-80be-eee7a029f70a"]
 }, Open  ]]
 }
 ]

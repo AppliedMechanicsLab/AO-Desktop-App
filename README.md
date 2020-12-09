@@ -1,5 +1,8 @@
-# AO-Algorithm-App
+# AO-Desktop-App
 
+Determining the motion and acceleration field of a rigid body using measurements from four tri-axial accelerometers.
+
+![](ScreenShot.png)
 
 ## Acceleration Data File format
 
@@ -11,7 +14,7 @@
 |------|-------|-------|-------|
 | ...  | ...   | ...   | ...   |
 | ...  | ...   | ...   | ...   |
- 
+
 
 ## Position and direction of accelerometers
 * X1={0,0,0.83}, N={{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}
@@ -19,7 +22,7 @@
 * X3={0.15,0,0.75}, N={{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}
 * X4={-0.15,0,0.75}, N={{0, 1, 0}, {-1, 0, 0}, {0, 0, 1}}
 
-X5={0,0,0.67} 
+X5={0,0,0.67}
 
 
 ## Initial condition
