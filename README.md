@@ -118,13 +118,14 @@ An example format of acceptable data file is
   * We take the Point of Interest to be (0, 0, 0.67) in the example data.
 * A reference point is required in order to define initial position and initial velocity. The reference point can be any point whose position and velocity are known in the initial time instance. It is not necessary to be the center of mass, or one of the accelerometer positions.
   * We take the reference point initial position to be (0,0,0.75) and reference point initial velocity to be (0.75,0,0) in the example data.
-* The initial angular velocity of the Headform should be given.
+* The initial angular velocity of the rigid body should be given.
   * We take the initial angular velocity to be (5,5,5) in the example data.
 
 ## License
 Distributed under the GNU General Public License. See `LICENSE` for more information.
 ## Contact
 Wenqiang Fang - wenqiang_fang@brown.edu
+
 Project Link: https://github.com/AppliedMechanicsLab/AO-Desktop-App
 ## Reference
 Rahaman, Mohammad Masiur, Wenqiang Fang, Alice Lux Fawzi, Yang Wan, and Haneesh Kesari. "An accelerometer-only algorithm for determining the acceleration field of a rigid body, with application in studying the mechanics of mild Traumatic Brain Injury." *Journal of the Mechanics and Physics of Solids* (2020): 104014.
