@@ -85,23 +85,23 @@ After clicking **OK**, the result will show up in the output panel. You can choo
 ### Positions and Directions of Four Accelerometers
 Type positions and directions components as real numbers in the input boxes. Be aware that positions and directions vectors are projected in global coordinate system. For the given example data, we have
 * **Accelerometer 1**
-  - Position: $(0,0,0.83)$
-  - $\boldsymbol{N}_x = (1, 0, 0)$, $\boldsymbol{N}_y = (0, 1, 0)$, $\boldsymbol{N}_z = (0, 0, 1)$
+  - Position: (0,0,0.83)
+  - ***N***<sub>x</sub> = (1, 0, 0), ***N***<sub>y</sub> = (0, 1, 0), ***N***<sub>z</sub> = (0, 0, 1)
 * **Accelerometer 2**
-  - Position: $(0,0.1,0.75)$
-  - $\boldsymbol{N}_x = (1, 0, 0)$, $\boldsymbol{N}_y = (0, 1, 0)$, $\boldsymbol{N}_z = (0, 0, 1)$
+  - Position: (0,0.1,0.75)
+  - ***N***<sub>x</sub> = (1, 0, 0), ***N***<sub>y</sub> = (0, 1, 0), ***N***<sub>z</sub> = (0, 0, 1)
 * **Accelerometer 3**
-  - Position: $(0.15,0,0.75)$
-  - $\boldsymbol{N}_x = (1, 0, 0)$, $\boldsymbol{N}_y = (0, 1, 0)$, $\boldsymbol{N}_z = (0, 0, 1)$
+  - Position: (0.15,0,0.75)
+  - ***N***<sub>x</sub> = (1, 0, 0), ***N***<sub>y</sub> = (0, 1, 0), ***N***<sub>z</sub> = (0, 0, 1)
 * **Accelerometer 4**
-  - Position: $(-0.15,0,0.75)$
-  - $\boldsymbol{N}_x = (0, 1, 0)$, $\boldsymbol{N}_y = (-1, 0, 0)$, $\boldsymbol{N}_z = (0, 0, 1)$
+  - Position: (-0.15,0,0.75)
+  - ***N***<sub>x</sub> = (0, 1, 0), ***N***<sub>y</sub> = (-1, 0, 0), ***N***<sub>z</sub> = (0, 0, 1)
 
 ### Accelerometer Data File Format
 
 * Each data file only contains the acceleration measurement of a single accelerometer.
-* All measurements should have same frequency, starting from the same time instance $t = 0.0 $ and ending at same time instance.
-* Each data file should contain 4 columns. From left to right, the 4 columns denote time, acceleration in $X$ direction, acceleration in $Y$ direction, acceleration in $Z$ direction.
+* All measurements should have same frequency, starting from the same time instance t = 0.0  and ending at same time instance.
+* Each data file should contain 4 columns. From left to right, the 4 columns denote time, acceleration in X direction, acceleration in Y direction, acceleration in Z direction.
 * The first row should be the labels for each column. Starting from the second row, measurement are separated by either space or comma.
 * Use SI units (Meter, Second, Kg, etc.) for all data.
 
@@ -115,11 +115,11 @@ An example format of acceptable data file is
 
 ### Point of Interest (PoI) and Initial Conditions
 * You need to choose a Point of Interest (PoI) and input its position so that the app will predict the **Acceleration**, **Velocity** and **Position** of PoI as functions of time.
-  * We take the Point of Interest to be $(0, 0, 0.67)$ in the example data.
+  * We take the Point of Interest to be (0, 0, 0.67) in the example data.
 * A reference point is required in order to define initial position and initial velocity. The reference point can be any point whose position and velocity are known in the initial time instance. It is not necessary to be the center of mass, or one of the accelerometer positions.
-  * We take the reference point initial position to be $(0,0,0.75)$ and reference point initial velocity to be $(0.75,0,0)$ in the example data.
+  * We take the reference point initial position to be (0,0,0.75) and reference point initial velocity to be (0.75,0,0) in the example data.
 * The initial angular velocity of the Headform should be given.
-  * We take the initial angular velocity to be $(5,5,5)$ in the example data.
+  * We take the initial angular velocity to be (5,5,5) in the example data.
 
 ## License
 Distributed under the GNU General Public License. See `LICENSE` for more information.
