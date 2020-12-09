@@ -1,4 +1,4 @@
-# AO-Algorithm-App
+# AO-Desktop-App
 
 
 ## Acceleration Data File format
