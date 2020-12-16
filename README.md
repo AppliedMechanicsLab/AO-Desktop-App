@@ -15,15 +15,16 @@ Determining the motion and acceleration field of a rigid body using measurements
       <ul>
         <li><a href="#download-and-install-wolfram-player">Download and Install Wolfram Player</a></li>
         <li><a href="#download-ao-desktop-app">Download AO-Desktop-App</a></li>
-        <li><a href="#usage-example">Usage Example</a></li>
+        <li><a href="#quick-demonstration">Quick Demonstration</a></li>
+        <li><a href="#standard-workflow">Standard Workflow</a></li>
       </ul>
     </li>
     <li>
       <a href="#requirement-on-input-fields-and-data-files">Requirement on Input Fields and Data Files</a>
       <ul>
         <li><a href="#positions-and-directions-of-four-accelerometers">Positions and Directions of Four Accelerometers</a></li>
+        <li><a href="#point-of-interest-poi-and-initial-conditions">Point of Interest (PoI) and Initial Conditions</a></li>
         <li><a href="#accelerometer-data-file-format">Accelerometer Data File Format</a></li>
-        <li><a href="#point-of-interest-(poi)-and-initial-conditions">Point of Interest (PoI) and Initial Conditions</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -65,13 +66,11 @@ You need to unzip the file. Inside the resulted folder, you will find the main f
 
 ![](images/Initialization.png)
 
-### Usage Example
-
 After you have done all the above steps correctly, A user-interface will show up in the opened file as the following screenshot.
 
 ![](images/GUI.png)
 
-You will need to input data including positions and directions of four accelerometers in global coordinate system, attach data files and input position of Point of Interest (PoI) and initial conditions in order to hit on **AO-Algorithm Calculation** button. We will discuss the requirement of each input field and the format of data files in next section.
+### Quick Demonstration
 
 For a quick demonstration, you can simply click **AO-Algorithm Calculation (using example data)** button to load example data and run the calculation. It takes around 20 seconds, depending on your CPU and memory performance, to finish the calculation. When it is finished, you will see a dialog window shown as
 
@@ -79,47 +78,31 @@ For a quick demonstration, you can simply click **AO-Algorithm Calculation (usin
 
 After clicking **OK**, the result will show up in the output panel. You can choose different output plots and control the video interactively.
 
+### Standard Workflow
+
+In this user-interface, initial input data including positions and directions of four accelerometers in global coordinate system, position where the measurement located in data file, position of Point of Interest (PoI) and initial conditions are already given based on the example data. You can change each of the input fields according to your experiments, attach data file, load and check data file and run AO-Algorithm calculation.
+
+The standard workflow for using the AO-Desktop App contains 4 steps:
+1. **Change each of the input fields** according to your experimental measurement.
+2. Click on button **Attach Data File** and choose the data file on your computer to upload.
+3. Click on button **Load and Check Data File**. You will be able to select and look at the plots of measurements for each accelerometer.
+4. Click on button **AO-Algorithm Calculation**. When the calculation is finished, a dialog window will remind you and multiple interactive output plots and a simulation video will present in the output panel.
 
 ## Requirement on Input Fields and Data Files
 
 ### Positions and Directions of Four Accelerometers
-Type positions and directions components as real numbers in the input boxes. Be aware that positions and directions vectors are projected in global coordinate system. For the given example data, we have
-* **Accelerometer 1**
-  - Position: (0,0,0.83)
-  - ***N***<sub>x</sub> = (1, 0, 0), ***N***<sub>y</sub> = (0, 1, 0), ***N***<sub>z</sub> = (0, 0, 1)
-* **Accelerometer 2**
-  - Position: (0,0.1,0.75)
-  - ***N***<sub>x</sub> = (1, 0, 0), ***N***<sub>y</sub> = (0, 1, 0), ***N***<sub>z</sub> = (0, 0, 1)
-* **Accelerometer 3**
-  - Position: (0.15,0,0.75)
-  - ***N***<sub>x</sub> = (1, 0, 0), ***N***<sub>y</sub> = (0, 1, 0), ***N***<sub>z</sub> = (0, 0, 1)
-* **Accelerometer 4**
-  - Position: (-0.15,0,0.75)
-  - ***N***<sub>x</sub> = (0, 1, 0), ***N***<sub>y</sub> = (-1, 0, 0), ***N***<sub>z</sub> = (0, 0, 1)
+Type positions and directions components as real numbers in the input boxes. Be aware that positions and directions vectors components are defined by projecting the vectors in global coordinate system. All length variables are in unit of meter.
 
-### Accelerometer Data File Format
-
-* Each data file only contains the acceleration measurement of a single accelerometer.
-* All measurements should have same frequency, starting from the same time instance t = 0.0  and ending at same time instance.
-* Each data file should contain 4 columns. From left to right, the 4 columns denote time, acceleration in X direction, acceleration in Y direction, acceleration in Z direction.
-* The first row should be the labels for each column. Starting from the second row, measurement are separated by either space or comma.
-* Use SI units (Meter, Second, Kg, etc.) for all data.
-
-An example format of acceptable data file is
-| Time | Acc_X | Acc_Y | Acc_Z |
-|------|-------|-------|-------|
-| 0.0 | 3.46  | -5.  |  -7.85 |
-| 0.00025  | 3.48  | -5.01   | -7.85   |
-| ...   | ...   | ...   | ...   |
-
+If there are more than 4 accelerometers deployed in the experiments, you can select 4 of them as input by changing **Position in data file**. For example, if there are 6 measurements in your data file, and you want to select the last 4 measurements as input, you can input **3**,**4**,**5**,**6** in **Position in data file** field for **Accelerometer 1**, **Accelerometer 2**, **Accelerometer 3**, **Accelerometer 4**, respectively.
 
 ### Point of Interest (PoI) and Initial Conditions
-* You need to choose a Point of Interest (PoI) and input its position so that the app will predict the **Acceleration**, **Velocity** and **Position** of PoI as functions of time.
-  * We take the Point of Interest to be (0, 0, 0.67) in the example data.
-* A reference point is required in order to define initial position and initial velocity. The reference point can be any point whose position and velocity are known in the initial time instance. It is not necessary to be the center of mass, or one of the accelerometer positions.
-  * We take the reference point initial position to be (0,0,0.75) and reference point initial velocity to be (0.75,0,0) in the example data.
-* The initial angular velocity of the rigid body should be given.
-  * We take the initial angular velocity to be (5,5,5) in the example data.
+* You need to choose a **Point of Interest (PoI)** and input its position so that the app will predict the **Acceleration**, **Velocity** and **Position** of PoI as functions of time.
+* A **reference point** is required in order to define initial position and initial velocity. The reference point can be any point whose **position** and **velocity** are known in the initial time instance. It is not necessary to be the center of mass, or one of the accelerometer positions.
+* The **initial angular velocity** of the rigid body should be given.
+* All length variables are in unit of meter. Velocity variables are in unit of meter per second. Angular velocity variables are in unit of radian per second.
+
+### Accelerometer Data File Format
+The AO-Desktop App supports multiple data formats as inputs. You can gain insight on the supported data format by checking out the given example data files, which are located in `ExampleData` folder of this project. The example data format in files `Sample HIGH LOW G file.csv`, `Sample Blast Test csv fiel 20201109_121453-test-2.csv`, `4 PCB sensors sample file.csv` that our collaborator collected using their sensor system are all supported by this App.
 
 ## License
 Distributed under the GNU General Public License. See `LICENSE` for more information.

@@ -23,10 +23,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[      1064,         20]
-NotebookDataLength[    109616,       2178]
-NotebookOptionsPosition[    109649,       2162]
-NotebookOutlinePosition[    110391,       2188]
-CellTagsIndexPosition[    110348,       2185]
+NotebookDataLength[    125557,       2413]
+NotebookOptionsPosition[    125585,       2397]
+NotebookOutlinePosition[    126332,       2423]
+CellTagsIndexPosition[    126289,       2420]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -65,7 +65,7 @@ master/src/AO-App_GUI.wl\>\"", "]"}]}]], "Input",
    3.8164061933385153`*^9, 3.816406235036021*^9}, {3.816406410738124*^9, 
    3.816406420094366*^9}, 3.816478179244911*^9},
  Background->GrayLevel[1],
- CellLabel->"In[25]:=",ExpressionUUID->"5fb4ffba-2f6a-4b19-9cc1-578bbaa58b1c"],
+ CellLabel->"In[3]:=",ExpressionUUID->"5fb4ffba-2f6a-4b19-9cc1-578bbaa58b1c"],
 
 Cell[BoxData[
  TagBox[
@@ -96,477 +96,530 @@ Cell[BoxData[
           GrayLevel[0]], 
          Rectangle[{0, 0}, {500, 500}]}, ImageSize -> 500]}, 0}, {
       Hold[
-       DynamicModule[{$CellContext`X1 = Null, $CellContext`Y1 = 
-         Null, $CellContext`Z1 = Null, $CellContext`NX1X = 
-         Null, $CellContext`NX1Y = Null, $CellContext`NX1Z = 
-         Null, $CellContext`NY1X = Null, $CellContext`NY1Y = 
-         Null, $CellContext`NY1Z = Null, $CellContext`NZ1X = 
-         Null, $CellContext`NZ1Y = Null, $CellContext`NZ1Z = 
-         Null, $CellContext`DataAcc1 = Null, $CellContext`X2 = 
-         Null, $CellContext`Y2 = Null, $CellContext`Z2 = 
-         Null, $CellContext`NX2X = Null, $CellContext`NX2Y = 
-         Null, $CellContext`NX2Z = Null, $CellContext`NY2X = 
-         Null, $CellContext`NY2Y = Null, $CellContext`NY2Z = 
-         Null, $CellContext`NZ2X = Null, $CellContext`NZ2Y = 
-         Null, $CellContext`NZ2Z = Null, $CellContext`DataAcc2 = 
-         Null, $CellContext`X3 = Null, $CellContext`Y3 = 
-         Null, $CellContext`Z3 = Null, $CellContext`NX3X = 
-         Null, $CellContext`NX3Y = Null, $CellContext`NX3Z = 
-         Null, $CellContext`NY3X = Null, $CellContext`NY3Y = 
-         Null, $CellContext`NY3Z = Null, $CellContext`NZ3X = 
-         Null, $CellContext`NZ3Y = Null, $CellContext`NZ3Z = 
-         Null, $CellContext`DataAcc3 = Null, $CellContext`X4 = 
-         Null, $CellContext`Y4 = Null, $CellContext`Z4 = 
-         Null, $CellContext`NX4X = Null, $CellContext`NX4Y = 
-         Null, $CellContext`NX4Z = Null, $CellContext`NY4X = 
-         Null, $CellContext`NY4Y = Null, $CellContext`NY4Z = 
-         Null, $CellContext`NZ4X = Null, $CellContext`NZ4Y = 
-         Null, $CellContext`NZ4Z = Null, $CellContext`DataAcc4 = 
-         Null, $CellContext`X5 = Null, $CellContext`Y5 = 
-         Null, $CellContext`Z5 = Null, $CellContext`X0 = 
-         Null, $CellContext`Y0 = Null, $CellContext`Z0 = 
-         Null, $CellContext`Vx = Null, $CellContext`Vy = 
-         Null, $CellContext`Vz = Null, $CellContext`\[Omega]x = 
-         Null, $CellContext`\[Omega]y, $CellContext`\[Omega]z, \
-$CellContext`PosList, $CellContext`DirerList, $CellContext`InitialPos, \
-$CellContext`InitialVel, $CellContext`InitialAngVel, $CellContext`InputPanel = 
-         Row[{
-            Column[{
-              Style["Accelerometer1", Bold], 
-              Row[{
-                Item["Position: "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "X", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Y", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Z", 
-                   FieldSize -> {2.85, 1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item["Data File: "], 
-                Button[
-                "Attach File", 
-                 Null = SystemDialogInput[
-                   "FileOpen", WindowTitle -> "Choose working directory"]; 
-                 Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-            Column[{
-              Style["Accelerometer2", Bold], 
-              Row[{
-                Item["Position: "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "X", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Y", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Z", 
-                   FieldSize -> {2.85, 1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item["Data File: "], 
-                Button[
-                "Attach File", 
-                 Null = SystemDialogInput[
-                   "FileOpen", WindowTitle -> "Choose working directory"]; 
-                 Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-            Column[{
-              Style["Accelerometer3", Bold], 
-              Row[{
-                Item["Position: "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "X", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Y", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Z", 
-                   FieldSize -> {2.85, 1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item["Data File: "], 
-                Button[
-                "Attach File", 
-                 Null = SystemDialogInput[
-                   "FileOpen", WindowTitle -> "Choose working directory"]; 
-                 Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-            Column[{
-              Style["Accelerometer4", Bold], 
-              Row[{
-                Item["Position: "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "X", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Y", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Z", 
-                   FieldSize -> {2.85, 1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item["Data File: "], 
-                Button[
-                "Attach File", 
-                 Null = SystemDialogInput[
-                   "FileOpen", WindowTitle -> "Choose working directory"]; 
-                 Null, Method -> "Queued", ImageSize -> 150]}]}, Center]}, 
-           Spacer[10]], $CellContext`PointOfInterest = Grid[{{
-             Item["Position of Point of Interest (PoI): "], 
+       DynamicModule[{$CellContext`X1 = 0, $CellContext`Y1 = 
+         0, $CellContext`Z1 = 0.83, $CellContext`NX1X = 1, $CellContext`NX1Y = 
+         0, $CellContext`NX1Z = 0, $CellContext`NY1X = 0, $CellContext`NY1Y = 
+         1, $CellContext`NY1Z = 0, $CellContext`NZ1X = 0, $CellContext`NZ1Y = 
+         0, $CellContext`NZ1Z = 1, $CellContext`DataAcc = 
+         Null, $CellContext`X2 = 0, $CellContext`Y2 = 0.1, $CellContext`Z2 = 
+         0.75, $CellContext`NX2X = 1, $CellContext`NX2Y = 
+         0, $CellContext`NX2Z = 0, $CellContext`NY2X = 0, $CellContext`NY2Y = 
+         1, $CellContext`NY2Z = 0, $CellContext`NZ2X = 0, $CellContext`NZ2Y = 
+         0, $CellContext`NZ2Z = 1, $CellContext`X3 = 0.15, $CellContext`Y3 = 
+         0, $CellContext`Z3 = 0.75, $CellContext`NX3X = 1, $CellContext`NX3Y = 
+         0, $CellContext`NX3Z = 0, $CellContext`NY3X = 0, $CellContext`NY3Y = 
+         1, $CellContext`NY3Z = 0, $CellContext`NZ3X = 0, $CellContext`NZ3Y = 
+         0, $CellContext`NZ3Z = 1, $CellContext`X4 = -0.15, $CellContext`Y4 = 
+         0, $CellContext`Z4 = 0.75, $CellContext`NX4X = 0, $CellContext`NX4Y = 
+         1, $CellContext`NX4Z = 0, $CellContext`NY4X = -1, $CellContext`NY4Y = 
+         0, $CellContext`NY4Z = 0, $CellContext`NZ4X = 0, $CellContext`NZ4Y = 
+         0, $CellContext`NZ4Z = 1, $CellContext`X5 = 0, $CellContext`Y5 = 
+         0, $CellContext`Z5 = 0.67, $CellContext`X0 = 0, $CellContext`Y0 = 
+         0, $CellContext`Z0 = 0.75, $CellContext`Vx = 0.75, $CellContext`Vy = 
+         0, $CellContext`Vz = 0, $CellContext`\[Omega]x = 
+         5., $CellContext`\[Omega]y = 5., $CellContext`\[Omega]z = 
+         5., $CellContext`slct1 = 1, $CellContext`slct2 = 
+         2, $CellContext`slct3 = 3, $CellContext`slct4 = 
+         4, $CellContext`SelectSet = {1, 2, 3, 
+          4}, $CellContext`PosList, $CellContext`DirerList, \
+$CellContext`InitialPos, $CellContext`InitialVel, $CellContext`InitialAngVel, \
+$CellContext`InputPanel = Grid[{{
              Row[{
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "X", 
-                FieldSize -> {2.85, 1}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "Y", 
-                FieldSize -> {2.85, 1}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "Z", 
-                FieldSize -> {2.85, 1}]}, 
-              Spacer[1]]}, {
-             Item["Headform initial position: "], 
+               Column[{
+                 Item[
+                  Style["Accelerometer 1", Bold], Alignment -> Center], 
+                 Row[{
+                   Item["Position: "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`X1], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y1], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z1], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX1Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\
+\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY1Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ1Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Position in data file\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   InputField[
+                    Dynamic[$CellContext`slct1], Number, FieldHint -> "1", 
+                    FieldSize -> {1.5, 1}]}]}, Left], 
+               Column[{
+                 Item[
+                  Style["Accelerometer 2", Bold], Alignment -> Center], 
+                 Row[{
+                   Item["Position: "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`X2], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y2], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z2], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\
+\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Position in data file\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   InputField[
+                    Dynamic[$CellContext`slct2], Number, FieldHint -> "2", 
+                    FieldSize -> {1.5, 1}]}]}, Left]}, 
+              Spacer[10]], 
              Row[{
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "X", 
-                FieldSize -> {2.85, 1}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "Y", 
-                FieldSize -> {2.85, 1}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "Z", 
-                FieldSize -> {2.85, 1}]}, 
-              Spacer[1]]}, {
-             Item["Headform initial velocity: "], 
-             Row[{
-               InputField[
-                Dynamic[Null], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(x\)]\)", FieldSize -> {2.85, 1.2}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(y\)]\)", FieldSize -> {2.85, 1.2}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(z\)]\)", FieldSize -> {2.85, 1.2}]}, 
-              Spacer[1]]}, {
-             Item["Headform initial angular velocity: "], 
-             Row[{
-               InputField[
-                Dynamic[Null], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\(\[Omega]\), \(x\)]\)", 
-                FieldSize -> {2.85, 1.2}], 
-               InputField[
-                Dynamic[$CellContext`\[Omega]y], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\(\[Omega]\), \(y\)]\)", 
-                FieldSize -> {2.85, 1.2}], 
-               InputField[
-                Dynamic[$CellContext`\[Omega]z], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\(\[Omega]\), \(z\)]\)", 
-                FieldSize -> {2.85, 1.2}]}, 
-              Spacer[1]]}}, Alignment -> 
-           Left], $CellContext`InputList, $CellContext`RunButton = Row[{
-            Button["AO-Algorithm Calculation", 
-             If[
-              
-              AnyTrue[{$CellContext`X1, $CellContext`Y1, $CellContext`Z1, \
+               Column[{
+                 Item[
+                  Style["Accelerometer 3", Bold], Alignment -> Center], 
+                 Row[{
+                   Item["Position: "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`X3], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y3], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z3], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\
+\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Position in data file\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   InputField[
+                    Dynamic[$CellContext`slct3], Number, FieldHint -> "3", 
+                    FieldSize -> {1.5, 1}]}]}, Left], 
+               Column[{
+                 Item[
+                  Style["Accelerometer 4", Bold], Alignment -> Center], 
+                 Row[{
+                   Item["Position: "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`X4], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y4], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z4], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\
+\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\
+\nFontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                 Row[{
+                   Item[
+                   "Position in data file\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                   InputField[
+                    Dynamic[$CellContext`slct4], Number, FieldHint -> "4", 
+                    FieldSize -> {1.5, 1}]}]}, Left]}, 
+              Spacer[10]]}, {
+             Spacer[10], 
+             Spacer[10]}, {
+             Grid[{{
+                Item["Position of Point of Interest (PoI): "], 
+                Row[{
+                  InputField[
+                   Dynamic[$CellContext`X5], Number, FieldHint -> "X", 
+                   FieldSize -> {3.2, 1}], 
+                  InputField[
+                   Dynamic[$CellContext`Y5], Number, FieldHint -> "Y", 
+                   FieldSize -> {3.2, 1}], 
+                  InputField[
+                   Dynamic[$CellContext`Z5], Number, FieldHint -> "Z", 
+                   FieldSize -> {3.2, 1}]}, 
+                 Spacer[1]]}, {
+                Item["Reference Point initial position: "], 
+                Row[{
+                  InputField[
+                   Dynamic[$CellContext`X0], Number, FieldHint -> "X", 
+                   FieldSize -> {3.2, 1}], 
+                  InputField[
+                   Dynamic[$CellContext`Y0], Number, FieldHint -> "Y", 
+                   FieldSize -> {3.2, 1}], 
+                  InputField[
+                   Dynamic[$CellContext`Z0], Number, FieldHint -> "Z", 
+                   FieldSize -> {3.2, 1}]}, 
+                 Spacer[1]]}}, Alignment -> Left], 
+             Grid[{{
+                Item["Reference Point initial velocity: "], 
+                Row[{
+                  InputField[
+                   Dynamic[$CellContext`Vx], Number, FieldHint -> 
+                   "\!\(\*SubscriptBox[\nStyleBox[\"v\",\nFontSlant->\"Italic\
+\"], \(x\)]\)", FieldSize -> {3.2, 1.2}], 
+                  InputField[
+                   Dynamic[$CellContext`Vy], Number, FieldHint -> 
+                   "\!\(\*SubscriptBox[\nStyleBox[\"v\",\nFontSlant->\"Italic\
+\"], \(y\)]\)", FieldSize -> {3.2, 1.2}], 
+                  InputField[
+                   Dynamic[$CellContext`Vz], Number, FieldHint -> 
+                   "\!\(\*SubscriptBox[\nStyleBox[\"v\",\nFontSlant->\"Italic\
+\"], \(z\)]\)", FieldSize -> {3.2, 1.2}]}, 
+                 Spacer[1]]}, {
+                Item["Headform initial angular velocity: "], 
+                Row[{
+                  InputField[
+                   Dynamic[$CellContext`\[Omega]x], Number, FieldHint -> 
+                   "\!\(\*SubscriptBox[\(\[Omega]\), \(x\)]\)", 
+                   FieldSize -> {3.2, 1.2}], 
+                  InputField[
+                   Dynamic[$CellContext`\[Omega]y], Number, FieldHint -> 
+                   "\!\(\*SubscriptBox[\(\[Omega]\), \(y\)]\)", 
+                   FieldSize -> {3.2, 1.2}], 
+                  InputField[
+                   Dynamic[$CellContext`\[Omega]z], Number, FieldHint -> 
+                   "\!\(\*SubscriptBox[\(\[Omega]\), \(z\)]\)", 
+                   FieldSize -> {3.2, 1.2}]}, 
+                 Spacer[1]]}}, Alignment -> Left]}, {
+             Button[
+             "Attach Data File", $CellContext`DataAcc = 
+               SystemDialogInput[
+                "FileOpen", WindowTitle -> "Choose working directory"]; Null, 
+              Method -> "Queued", ImageSize -> {450, 40}, 
+              BaseStyle -> {FontSize -> 18}], 
+             Button["Load and Check Data File", 
+              If[
+               
+               AnyTrue[{$CellContext`X1, $CellContext`Y1, $CellContext`Z1, \
 $CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z, $CellContext`NY1X, \
 $CellContext`NY1Y, $CellContext`NY1Z, $CellContext`NZ1X, $CellContext`NZ1Y, \
-$CellContext`NZ1Z, $CellContext`DataAcc1, $CellContext`X2, $CellContext`Y2, \
-$CellContext`Z2, $CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z, \
-$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z, $CellContext`NZ2X, \
-$CellContext`NZ2Y, $CellContext`NZ2Z, $CellContext`DataAcc2, $CellContext`X3, \
-$CellContext`Y3, $CellContext`Z3, $CellContext`NX3X, $CellContext`NX3Y, \
-$CellContext`NX3Z, $CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z, \
-$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z, \
-$CellContext`DataAcc3, $CellContext`X4, $CellContext`Y4, $CellContext`Z4, \
+$CellContext`NZ1Z, $CellContext`X2, $CellContext`Y2, $CellContext`Z2, \
+$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z, $CellContext`NY2X, \
+$CellContext`NY2Y, $CellContext`NY2Z, $CellContext`NZ2X, $CellContext`NZ2Y, \
+$CellContext`NZ2Z, $CellContext`X3, $CellContext`Y3, $CellContext`Z3, \
+$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z, $CellContext`NY3X, \
+$CellContext`NY3Y, $CellContext`NY3Z, $CellContext`NZ3X, $CellContext`NZ3Y, \
+$CellContext`NZ3Z, $CellContext`X4, $CellContext`Y4, $CellContext`Z4, \
 $CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z, $CellContext`NY4X, \
 $CellContext`NY4Y, $CellContext`NY4Z, $CellContext`NZ4X, $CellContext`NZ4Y, \
-$CellContext`NZ4Z, $CellContext`DataAcc4, $CellContext`X5, $CellContext`Y5, \
-$CellContext`Z5, $CellContext`X0, $CellContext`Y0, $CellContext`Z0, \
-$CellContext`Vx, $CellContext`Vy, $CellContext`Vz, $CellContext`\[Omega]x, \
-$CellContext`\[Omega]y, $CellContext`\[Omega]z}, # === 
-               Null& ], $CellContext`CenterMessageDialog[
-               "Please check input values."]; 
-              Null, $CellContext`PosList = {{$CellContext`X1, \
-$CellContext`Y1, $CellContext`Z1}, {$CellContext`X2, $CellContext`Y2, \
-$CellContext`Z2}, {$CellContext`X3, $CellContext`Y3, $CellContext`Z3}, \
-{$CellContext`X4, $CellContext`Y4, $CellContext`Z4}, {$CellContext`X5, \
-$CellContext`Y5, $CellContext`Z5}}; $CellContext`DirerList = \
-{{{$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z}, \
-{$CellContext`NY1X, $CellContext`NY1Y, $CellContext`NY1Z}, \
-{$CellContext`NZ1X, $CellContext`NZ1Y, $CellContext`NZ1Z}}, \
-{{$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z}, \
-{$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z}, \
-{$CellContext`NZ2X, $CellContext`NZ2Y, $CellContext`NZ2Z}}, \
-{{$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z}, \
-{$CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z}, \
-{$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z}}, \
-{{$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z}, \
-{$CellContext`NY4X, $CellContext`NY4Y, $CellContext`NY4Z}, \
-{$CellContext`NZ4X, $CellContext`NZ4Y, $CellContext`NZ4Z}}}; \
-$CellContext`InputList = {$CellContext`DataAcc1, $CellContext`DataAcc2, \
-$CellContext`DataAcc3, $CellContext`DataAcc4}; $CellContext`InitialPos = \
-{$CellContext`X0, $CellContext`Y0, $CellContext`Z0}; $CellContext`InitialVel = \
+$CellContext`NZ4Z, $CellContext`X5, $CellContext`Y5, $CellContext`Z5, \
+$CellContext`X0, $CellContext`Y0, $CellContext`Z0, $CellContext`Vx, \
+$CellContext`Vy, $CellContext`Vz, $CellContext`\[Omega]x, $CellContext`\
+\[Omega]y, $CellContext`\[Omega]z, $CellContext`DataAcc}, # === 
+                Null& ], $CellContext`CenterMessageDialog[
+                "Please check and make sure all inputs fields are filled \
+in."]; Null, $CellContext`PosList = {{$CellContext`X1, $CellContext`Y1, \
+$CellContext`Z1}, {$CellContext`X2, $CellContext`Y2, $CellContext`Z2}, \
+{$CellContext`X3, $CellContext`Y3, $CellContext`Z3}, {$CellContext`X4, \
+$CellContext`Y4, $CellContext`Z4}, {$CellContext`X5, $CellContext`Y5, \
+$CellContext`Z5}}; $CellContext`DirerList = {{{$CellContext`NX1X, \
+$CellContext`NX1Y, $CellContext`NX1Z}, {$CellContext`NY1X, $CellContext`NY1Y, \
+$CellContext`NY1Z}, {$CellContext`NZ1X, $CellContext`NZ1Y, \
+$CellContext`NZ1Z}}, {{$CellContext`NX2X, $CellContext`NX2Y, \
+$CellContext`NX2Z}, {$CellContext`NY2X, $CellContext`NY2Y, \
+$CellContext`NY2Z}, {$CellContext`NZ2X, $CellContext`NZ2Y, \
+$CellContext`NZ2Z}}, {{$CellContext`NX3X, $CellContext`NX3Y, \
+$CellContext`NX3Z}, {$CellContext`NY3X, $CellContext`NY3Y, \
+$CellContext`NY3Z}, {$CellContext`NZ3X, $CellContext`NZ3Y, \
+$CellContext`NZ3Z}}, {{$CellContext`NX4X, $CellContext`NX4Y, \
+$CellContext`NX4Z}, {$CellContext`NY4X, $CellContext`NY4Y, \
+$CellContext`NY4Z}, {$CellContext`NZ4X, $CellContext`NZ4Y, \
+$CellContext`NZ4Z}}}; $CellContext`InitialPos = {$CellContext`X0, \
+$CellContext`Y0, $CellContext`Z0}; $CellContext`InitialVel = \
 {$CellContext`Vx, $CellContext`Vy, $CellContext`Vz}; \
 $CellContext`InitialAngVel = {$CellContext`\[Omega]x, $CellContext`\[Omega]y, \
-$CellContext`\[Omega]z}; SRAO`LoadData[$CellContext`InputList]; 
-              SRAO`prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
-              SRAO`SolveA[$CellContext`InitialAngVel]; 
+$CellContext`\[Omega]z}; $CellContext`SelectSet = {$CellContext`slct1, \
+$CellContext`slct2, $CellContext`slct3, $CellContext`slct4}; 
+               SRAO`LoadData[$CellContext`DataAcc, $CellContext`SelectSet]; 
+               SRAO`Prepocessing[$CellContext`PosList, \
+$CellContext`DirerList]; If[SRAO`OutInd == 1, $CellContext`Plt1$$ = Manipulate[
+                    SRAO`ShowAcceleration[
+                    SRAO`Time, {
+                    SRAO`Acc1, SRAO`Acc2, SRAO`Acc3, 
+                    SRAO`Acc4}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                    DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInds, 
+                    Appearance -> "Vertical"]}]], 
+                    LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"},
+                     FrameMargins -> 10]; $CellContext`Plt2$$ = 
+                  Graphics[{White, 
+                    EdgeForm[Black], 
+                    Rectangle[{0, 0}, {500, 500}]}, ImageSize -> 500]; 
+                 Null, $CellContext`Plt1$$ = Manipulate[
+                    SRAO`ShowAcceleration[
+                    SRAO`Time, {
+                    SRAO`Acc1, SRAO`Acc2, SRAO`Acc3, 
+                    SRAO`Acc4}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                    DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInd1, 
+                    Appearance -> "Vertical"]}]], 
+                    LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"},
+                     FrameMargins -> 10]; $CellContext`Plt2$$ = Manipulate[
+                    SRAO`ShowAcceleration[
+                    SRAO`TimeL, {
+                    SRAO`Acc1L, SRAO`Acc2L, SRAO`Acc3L, 
+                    SRAO`Acc4L}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                    DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInd2, 
+                    Appearance -> "Vertical"]}]], 
+                    LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"},
+                     FrameMargins -> 10]; Null]], Method -> "Queued", 
+              ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}]}, {
+             Button[
+             "AO-Algorithm Calculation", 
+              SRAO`SolveA[$CellContext`InitialAngVel, SRAO`Acc1, SRAO`Acc2, 
+                SRAO`Acc3, SRAO`Acc4, SRAO`\[Delta]t, SRAO`Nt]; 
               SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
-$CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
+$CellContext`InitialAngVel, SRAO`\[Delta]t, SRAO`Nt]; $CellContext`Plt1$$ = 
+               Manipulate[
                  
-                 SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
-                  None}, 
+                 SRAO`PlotVect[$CellContext`PltId, 
+                  SRAO`Time], {$CellContext`PltId, 1, None}, 
                  DynamicModule[{}, 
                   Column[{
                     Item["Choose one of the output plots:  "], 
@@ -575,484 +628,28 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
                     Appearance -> "Vertical"]}]], 
                  LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
                  FrameMargins -> 10]; $CellContext`Plt2$$ = 
-               SRAO`MakeVideo[]; $CellContext`CenterMessageDialog[
-               "AO-Algorithm Calculation is done!"]; Null], Method -> 
-             "Queued", ImageSize -> {400, 50}, BaseStyle -> {FontSize -> 18}], 
-            Button[
-            "AO-Algorithm Calculation (using example data)", \
-$CellContext`InputList = Map[URLDownload[
-                 StringJoin[
-                 "https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/\
-master/ExampleData/Acc", 
-                  IntegerString[#], ".txt"]]& , 
-                Range[4]]; $CellContext`PosList = {{0, 0, 0.83}, {
-                0, 0.1, 0.75}, {0.15, 0, 0.75}, {-0.15, 0, 0.75}, {
-                0, 0, 0.67}}; $CellContext`DirerList = {{{1, 0, 0}, {0, 1, 
-               0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 
-               0}, {0, 1, 0}, {0, 0, 1}}, {{0, 1, 0}, {-1, 0, 0}, {0, 0, 
-               1}}}; $CellContext`InitialPos = {
-               0, 0, 0.75}; $CellContext`InitialVel = {
-               0.75, 0, 0}; $CellContext`InitialAngVel = {5., 5., 5.}; 
-             SRAO`LoadData[$CellContext`InputList]; 
-             SRAO`prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
-             SRAO`SolveA[$CellContext`InitialAngVel]; 
-             SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
-$CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
-                
-                SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
-                 None}, 
-                DynamicModule[{}, 
-                 Column[{
-                   Item["Choose one of the output plots:  "], 
-                   RadioButtonBar[
-                    Dynamic[$CellContext`PltId], $CellContext`PltInd, 
-                    Appearance -> "Vertical"]}]], 
-                LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
-                FrameMargins -> 10]; $CellContext`Plt2$$ = 
-              SRAO`MakeVideo[]; $CellContext`CenterMessageDialog[
-              "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued", 
-             ImageSize -> {550, 50}, BaseStyle -> {FontSize -> 18}]}, 
-           Spacer[10]], $CellContext`PltChoose, $CellContext`PltId = 1}, 
-        Column[{
-          Row[{
-            Column[{
-              Style["Accelerometer1", Bold], 
-              Row[{
-                Item["Position: "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "X", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Y", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Z", 
-                   FieldSize -> {2.85, 1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item["Data File: "], 
-                Button[
-                "Attach File", 
-                 Null = SystemDialogInput[
-                   "FileOpen", WindowTitle -> "Choose working directory"]; 
-                 Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-            Column[{
-              Style["Accelerometer2", Bold], 
-              Row[{
-                Item["Position: "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "X", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Y", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Z", 
-                   FieldSize -> {2.85, 1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item["Data File: "], 
-                Button[
-                "Attach File", 
-                 Null = SystemDialogInput[
-                   "FileOpen", WindowTitle -> "Choose working directory"]; 
-                 Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-            Column[{
-              Style["Accelerometer3", Bold], 
-              Row[{
-                Item["Position: "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "X", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Y", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Z", 
-                   FieldSize -> {2.85, 1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item["Data File: "], 
-                Button[
-                "Attach File", 
-                 Null = SystemDialogInput[
-                   "FileOpen", WindowTitle -> "Choose working directory"]; 
-                 Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-            Column[{
-              Style["Accelerometer4", Bold], 
-              Row[{
-                Item["Position: "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "X", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Y", 
-                   FieldSize -> {2.85, 1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> "Z", 
-                   FieldSize -> {2.85, 1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item[
-                "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                Row[{
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                  InputField[
-                   Dynamic[Null], Number, FieldHint -> 
-                   "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                 Spacer[1]]}], 
-              Row[{
-                Item["Data File: "], 
-                Button[
-                "Attach File", 
-                 Null = SystemDialogInput[
-                   "FileOpen", WindowTitle -> "Choose working directory"]; 
-                 Null, Method -> "Queued", ImageSize -> 150]}]}, Center]}, 
-           Spacer[10]], 
-          Grid[{{
-             Item["Position of Point of Interest (PoI): "], 
-             Row[{
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "X", 
-                FieldSize -> {2.85, 1}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "Y", 
-                FieldSize -> {2.85, 1}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "Z", 
-                FieldSize -> {2.85, 1}]}, 
-              Spacer[1]]}, {
-             Item["Headform initial position: "], 
-             Row[{
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "X", 
-                FieldSize -> {2.85, 1}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "Y", 
-                FieldSize -> {2.85, 1}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> "Z", 
-                FieldSize -> {2.85, 1}]}, 
-              Spacer[1]]}, {
-             Item["Headform initial velocity: "], 
-             Row[{
-               InputField[
-                Dynamic[Null], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(x\)]\)", FieldSize -> {2.85, 1.2}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(y\)]\)", FieldSize -> {2.85, 1.2}], 
-               InputField[
-                Dynamic[Null], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(z\)]\)", FieldSize -> {2.85, 1.2}]}, 
-              Spacer[1]]}, {
-             Item["Headform initial angular velocity: "], 
-             Row[{
-               InputField[
-                Dynamic[Null], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\(\[Omega]\), \(x\)]\)", 
-                FieldSize -> {2.85, 1.2}], 
-               InputField[
-                Dynamic[$CellContext`\[Omega]y], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\(\[Omega]\), \(y\)]\)", 
-                FieldSize -> {2.85, 1.2}], 
-               InputField[
-                Dynamic[$CellContext`\[Omega]z], Number, FieldHint -> 
-                "\!\(\*SubscriptBox[\(\[Omega]\), \(z\)]\)", 
-                FieldSize -> {2.85, 1.2}]}, 
-              Spacer[1]]}}, Alignment -> Left], 
-          Row[{
-            Button["AO-Algorithm Calculation", 
-             If[
-              
-              AnyTrue[{$CellContext`X1, $CellContext`Y1, $CellContext`Z1, \
-$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z, $CellContext`NY1X, \
-$CellContext`NY1Y, $CellContext`NY1Z, $CellContext`NZ1X, $CellContext`NZ1Y, \
-$CellContext`NZ1Z, $CellContext`DataAcc1, $CellContext`X2, $CellContext`Y2, \
-$CellContext`Z2, $CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z, \
-$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z, $CellContext`NZ2X, \
-$CellContext`NZ2Y, $CellContext`NZ2Z, $CellContext`DataAcc2, $CellContext`X3, \
-$CellContext`Y3, $CellContext`Z3, $CellContext`NX3X, $CellContext`NX3Y, \
-$CellContext`NX3Z, $CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z, \
-$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z, \
-$CellContext`DataAcc3, $CellContext`X4, $CellContext`Y4, $CellContext`Z4, \
-$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z, $CellContext`NY4X, \
-$CellContext`NY4Y, $CellContext`NY4Z, $CellContext`NZ4X, $CellContext`NZ4Y, \
-$CellContext`NZ4Z, $CellContext`DataAcc4, $CellContext`X5, $CellContext`Y5, \
-$CellContext`Z5, $CellContext`X0, $CellContext`Y0, $CellContext`Z0, \
-$CellContext`Vx, $CellContext`Vy, $CellContext`Vz, $CellContext`\[Omega]x, \
-$CellContext`\[Omega]y, $CellContext`\[Omega]z}, # === 
-               Null& ], $CellContext`CenterMessageDialog[
-               "Please check input values."]; 
-              Null, $CellContext`PosList = {{$CellContext`X1, \
-$CellContext`Y1, $CellContext`Z1}, {$CellContext`X2, $CellContext`Y2, \
-$CellContext`Z2}, {$CellContext`X3, $CellContext`Y3, $CellContext`Z3}, \
-{$CellContext`X4, $CellContext`Y4, $CellContext`Z4}, {$CellContext`X5, \
-$CellContext`Y5, $CellContext`Z5}}; $CellContext`DirerList = \
-{{{$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z}, \
-{$CellContext`NY1X, $CellContext`NY1Y, $CellContext`NY1Z}, \
-{$CellContext`NZ1X, $CellContext`NZ1Y, $CellContext`NZ1Z}}, \
-{{$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z}, \
-{$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z}, \
-{$CellContext`NZ2X, $CellContext`NZ2Y, $CellContext`NZ2Z}}, \
-{{$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z}, \
-{$CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z}, \
-{$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z}}, \
-{{$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z}, \
-{$CellContext`NY4X, $CellContext`NY4Y, $CellContext`NY4Z}, \
-{$CellContext`NZ4X, $CellContext`NZ4Y, $CellContext`NZ4Z}}}; \
-$CellContext`InputList = {$CellContext`DataAcc1, $CellContext`DataAcc2, \
-$CellContext`DataAcc3, $CellContext`DataAcc4}; $CellContext`InitialPos = \
-{$CellContext`X0, $CellContext`Y0, $CellContext`Z0}; $CellContext`InitialVel = \
-{$CellContext`Vx, $CellContext`Vy, $CellContext`Vz}; \
-$CellContext`InitialAngVel = {$CellContext`\[Omega]x, $CellContext`\[Omega]y, \
-$CellContext`\[Omega]z}; SRAO`LoadData[$CellContext`InputList]; 
-              SRAO`prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
-              SRAO`SolveA[$CellContext`InitialAngVel]; 
+               SRAO`MakeVideo[
+                SRAO`Time, SRAO`\[Delta]t, 
+                 SRAO`Nt]; $CellContext`CenterMessageDialog[
+               "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued",
+               ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}], 
+             Button[
+             "AO-Algorithm Calculation (using example data)", \
+$CellContext`DataAcc = $CellContext`ExpInput; $CellContext`PosList = \
+$CellContext`ExpPosList; $CellContext`DirerList = $CellContext`ExpDirerList; \
+$CellContext`InitialPos = $CellContext`ExpInitialPos; $CellContext`InitialVel = \
+$CellContext`ExpInitialVel; $CellContext`InitialAngVel = \
+$CellContext`ExpInitialAngVel; 
+              SRAO`LoadData[$CellContext`DataAcc, $CellContext`SelectSet]; 
+              SRAO`Prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
+              SRAO`SolveA[$CellContext`InitialAngVel, SRAO`Acc1, SRAO`Acc2, 
+                SRAO`Acc3, SRAO`Acc4, SRAO`\[Delta]t, SRAO`Nt]; 
               SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
-$CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
+$CellContext`InitialAngVel, SRAO`\[Delta]t, SRAO`Nt]; $CellContext`Plt1$$ = 
+               Manipulate[
                  
-                 SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
-                  None}, 
+                 SRAO`PlotVect[$CellContext`PltId, 
+                  SRAO`Time], {$CellContext`PltId, 1, None}, 
                  DynamicModule[{}, 
                   Column[{
                     Item["Choose one of the output plots:  "], 
@@ -1061,44 +658,563 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
                     Appearance -> "Vertical"]}]], 
                  LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
                  FrameMargins -> 10]; $CellContext`Plt2$$ = 
-               SRAO`MakeVideo[]; $CellContext`CenterMessageDialog[
-               "AO-Algorithm Calculation is done!"]; Null], Method -> 
-             "Queued", ImageSize -> {400, 50}, BaseStyle -> {FontSize -> 18}], 
-            Button[
-            "AO-Algorithm Calculation (using example data)", \
-$CellContext`InputList = Map[URLDownload[
-                 StringJoin[
-                 "https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/\
-master/ExampleData/Acc", 
-                  IntegerString[#], ".txt"]]& , 
-                Range[4]]; $CellContext`PosList = {{0, 0, 0.83}, {
-                0, 0.1, 0.75}, {0.15, 0, 0.75}, {-0.15, 0, 0.75}, {
-                0, 0, 0.67}}; $CellContext`DirerList = {{{1, 0, 0}, {0, 1, 
-               0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 
-               0}, {0, 1, 0}, {0, 0, 1}}, {{0, 1, 0}, {-1, 0, 0}, {0, 0, 
-               1}}}; $CellContext`InitialPos = {
-               0, 0, 0.75}; $CellContext`InitialVel = {
-               0.75, 0, 0}; $CellContext`InitialAngVel = {5., 5., 5.}; 
-             SRAO`LoadData[$CellContext`InputList]; 
-             SRAO`prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
-             SRAO`SolveA[$CellContext`InitialAngVel]; 
-             SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
-$CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
-                
-                SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
-                 None}, 
-                DynamicModule[{}, 
-                 Column[{
-                   Item["Choose one of the output plots:  "], 
-                   RadioButtonBar[
-                    Dynamic[$CellContext`PltId], $CellContext`PltInd, 
+               SRAO`MakeVideo[
+                SRAO`Time, SRAO`\[Delta]t, 
+                 SRAO`Nt]; $CellContext`CenterMessageDialog[
+               "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued",
+               ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}]}}, 
+           Spacings -> {1.5, 0}, Alignment -> Left, 
+           BaseStyle -> {
+            FontSize -> 15, FontFamily -> "Helvetica"}], $CellContext`PltId = 
+         1}, 
+        Grid[{{
+           Row[{
+             Column[{
+               Item[
+                Style["Accelerometer 1", Bold], Alignment -> Center], 
+               Row[{
+                 Item["Position: "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`X1], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Y1], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Z1], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NX1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NX1Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NX1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NY1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`NY1Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`NY1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NZ1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NZ1Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NZ1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Position in data file\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 InputField[
+                  Dynamic[$CellContext`slct1], Number, FieldHint -> "1", 
+                  FieldSize -> {1.5, 1}]}]}, Left], 
+             Column[{
+               Item[
+                Style["Accelerometer 2", Bold], Alignment -> Center], 
+               Row[{
+                 Item["Position: "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`X2], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Y2], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Z2], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NX2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NX2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NX2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NY2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`NY2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`NY2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NZ2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NZ2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NZ2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Position in data file\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 InputField[
+                  Dynamic[$CellContext`slct2], Number, FieldHint -> "2", 
+                  FieldSize -> {1.5, 1}]}]}, Left]}, 
+            Spacer[10]], 
+           Row[{
+             Column[{
+               Item[
+                Style["Accelerometer 3", Bold], Alignment -> Center], 
+               Row[{
+                 Item["Position: "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`X3], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Y3], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Z3], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NX3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NX3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NX3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NY3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`NY3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`NY3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NZ3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NZ3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NZ3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Position in data file\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 InputField[
+                  Dynamic[$CellContext`slct3], Number, FieldHint -> "3", 
+                  FieldSize -> {1.5, 1}]}]}, Left], 
+             Column[{
+               Item[
+                Style["Accelerometer 4", Bold], Alignment -> Center], 
+               Row[{
+                 Item["Position: "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`X4], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Y4], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Z4], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NX4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NX4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NX4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NY4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`NY4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`NY4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`NZ4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NZ4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                   InputField[
+                    Dynamic[$CellContext`NZ4Z], Number, FieldHint -> 
+                    
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                  Spacer[1]]}], 
+               Row[{
+                 Item[
+                 "Position in data file\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                 InputField[
+                  Dynamic[$CellContext`slct4], Number, FieldHint -> "4", 
+                  FieldSize -> {1.5, 1}]}]}, Left]}, 
+            Spacer[10]]}, {
+           Spacer[10], 
+           Spacer[10]}, {
+           Grid[{{
+              Item["Position of Point of Interest (PoI): "], 
+              Row[{
+                InputField[
+                 Dynamic[$CellContext`X5], Number, FieldHint -> "X", 
+                 FieldSize -> {3.2, 1}], 
+                InputField[
+                 Dynamic[$CellContext`Y5], Number, FieldHint -> "Y", 
+                 FieldSize -> {3.2, 1}], 
+                InputField[
+                 Dynamic[$CellContext`Z5], Number, FieldHint -> "Z", 
+                 FieldSize -> {3.2, 1}]}, 
+               Spacer[1]]}, {
+              Item["Reference Point initial position: "], 
+              Row[{
+                InputField[
+                 Dynamic[$CellContext`X0], Number, FieldHint -> "X", 
+                 FieldSize -> {3.2, 1}], 
+                InputField[
+                 Dynamic[$CellContext`Y0], Number, FieldHint -> "Y", 
+                 FieldSize -> {3.2, 1}], 
+                InputField[
+                 Dynamic[$CellContext`Z0], Number, FieldHint -> "Z", 
+                 FieldSize -> {3.2, 1}]}, 
+               Spacer[1]]}}, Alignment -> Left], 
+           Grid[{{
+              Item["Reference Point initial velocity: "], 
+              Row[{
+                InputField[
+                 Dynamic[$CellContext`Vx], Number, FieldHint -> 
+                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(x\)]\)", FieldSize -> {3.2, 1.2}], 
+                InputField[
+                 Dynamic[$CellContext`Vy], Number, FieldHint -> 
+                 
+                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(y\)]\)", FieldSize -> {3.2, 1.2}], 
+                InputField[
+                 Dynamic[$CellContext`Vz], Number, FieldHint -> 
+                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(z\)]\)", FieldSize -> {3.2, 1.2}]}, 
+               Spacer[1]]}, {
+              Item["Headform initial angular velocity: "], 
+              Row[{
+                InputField[
+                 Dynamic[$CellContext`\[Omega]x], Number, FieldHint -> 
+                 "\!\(\*SubscriptBox[\(\[Omega]\), \(x\)]\)", 
+                 FieldSize -> {3.2, 1.2}], 
+                InputField[
+                 Dynamic[$CellContext`\[Omega]y], Number, FieldHint -> 
+                 "\!\(\*SubscriptBox[\(\[Omega]\), \(y\)]\)", 
+                 FieldSize -> {3.2, 1.2}], 
+                InputField[
+                 Dynamic[$CellContext`\[Omega]z], Number, FieldHint -> 
+                 "\!\(\*SubscriptBox[\(\[Omega]\), \(z\)]\)", 
+                 FieldSize -> {3.2, 1.2}]}, 
+               Spacer[1]]}}, Alignment -> Left]}, {
+           Button[
+           "Attach Data File", $CellContext`DataAcc = 
+             SystemDialogInput[
+              "FileOpen", WindowTitle -> "Choose working directory"]; Null, 
+            Method -> "Queued", ImageSize -> {450, 40}, 
+            BaseStyle -> {FontSize -> 18}], 
+           Button["Load and Check Data File", 
+            If[
+             
+             AnyTrue[{$CellContext`X1, $CellContext`Y1, $CellContext`Z1, \
+$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z, $CellContext`NY1X, \
+$CellContext`NY1Y, $CellContext`NY1Z, $CellContext`NZ1X, $CellContext`NZ1Y, \
+$CellContext`NZ1Z, $CellContext`X2, $CellContext`Y2, $CellContext`Z2, \
+$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z, $CellContext`NY2X, \
+$CellContext`NY2Y, $CellContext`NY2Z, $CellContext`NZ2X, $CellContext`NZ2Y, \
+$CellContext`NZ2Z, $CellContext`X3, $CellContext`Y3, $CellContext`Z3, \
+$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z, $CellContext`NY3X, \
+$CellContext`NY3Y, $CellContext`NY3Z, $CellContext`NZ3X, $CellContext`NZ3Y, \
+$CellContext`NZ3Z, $CellContext`X4, $CellContext`Y4, $CellContext`Z4, \
+$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z, $CellContext`NY4X, \
+$CellContext`NY4Y, $CellContext`NY4Z, $CellContext`NZ4X, $CellContext`NZ4Y, \
+$CellContext`NZ4Z, $CellContext`X5, $CellContext`Y5, $CellContext`Z5, \
+$CellContext`X0, $CellContext`Y0, $CellContext`Z0, $CellContext`Vx, \
+$CellContext`Vy, $CellContext`Vz, $CellContext`\[Omega]x, $CellContext`\
+\[Omega]y, $CellContext`\[Omega]z, $CellContext`DataAcc}, # === 
+              Null& ], $CellContext`CenterMessageDialog[
+              "Please check and make sure all inputs fields are filled in."]; 
+             Null, $CellContext`PosList = {{$CellContext`X1, $CellContext`Y1, \
+$CellContext`Z1}, {$CellContext`X2, $CellContext`Y2, $CellContext`Z2}, \
+{$CellContext`X3, $CellContext`Y3, $CellContext`Z3}, {$CellContext`X4, \
+$CellContext`Y4, $CellContext`Z4}, {$CellContext`X5, $CellContext`Y5, \
+$CellContext`Z5}}; $CellContext`DirerList = {{{$CellContext`NX1X, \
+$CellContext`NX1Y, $CellContext`NX1Z}, {$CellContext`NY1X, $CellContext`NY1Y, \
+$CellContext`NY1Z}, {$CellContext`NZ1X, $CellContext`NZ1Y, \
+$CellContext`NZ1Z}}, {{$CellContext`NX2X, $CellContext`NX2Y, \
+$CellContext`NX2Z}, {$CellContext`NY2X, $CellContext`NY2Y, \
+$CellContext`NY2Z}, {$CellContext`NZ2X, $CellContext`NZ2Y, \
+$CellContext`NZ2Z}}, {{$CellContext`NX3X, $CellContext`NX3Y, \
+$CellContext`NX3Z}, {$CellContext`NY3X, $CellContext`NY3Y, \
+$CellContext`NY3Z}, {$CellContext`NZ3X, $CellContext`NZ3Y, \
+$CellContext`NZ3Z}}, {{$CellContext`NX4X, $CellContext`NX4Y, \
+$CellContext`NX4Z}, {$CellContext`NY4X, $CellContext`NY4Y, \
+$CellContext`NY4Z}, {$CellContext`NZ4X, $CellContext`NZ4Y, \
+$CellContext`NZ4Z}}}; $CellContext`InitialPos = {$CellContext`X0, \
+$CellContext`Y0, $CellContext`Z0}; $CellContext`InitialVel = \
+{$CellContext`Vx, $CellContext`Vy, $CellContext`Vz}; \
+$CellContext`InitialAngVel = {$CellContext`\[Omega]x, $CellContext`\[Omega]y, \
+$CellContext`\[Omega]z}; $CellContext`SelectSet = {$CellContext`slct1, \
+$CellContext`slct2, $CellContext`slct3, $CellContext`slct4}; 
+             SRAO`LoadData[$CellContext`DataAcc, $CellContext`SelectSet]; 
+             SRAO`Prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
+             If[SRAO`OutInd == 1, $CellContext`Plt1$$ = Manipulate[
+                  SRAO`ShowAcceleration[
+                  SRAO`Time, {
+                   SRAO`Acc1, SRAO`Acc2, SRAO`Acc3, 
+                    SRAO`Acc4}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                   None}, 
+                  DynamicModule[{}, 
+                   Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInds, 
                     Appearance -> "Vertical"]}]], 
-                LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
-                FrameMargins -> 10]; $CellContext`Plt2$$ = 
-              SRAO`MakeVideo[]; $CellContext`CenterMessageDialog[
-              "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued", 
-             ImageSize -> {550, 50}, BaseStyle -> {FontSize -> 18}]}, 
-           Spacer[10]]}, 
+                  LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                  FrameMargins -> 10]; $CellContext`Plt2$$ = 
+                Graphics[{White, 
+                   EdgeForm[Black], 
+                   Rectangle[{0, 0}, {500, 500}]}, ImageSize -> 500]; 
+               Null, $CellContext`Plt1$$ = Manipulate[
+                  SRAO`ShowAcceleration[
+                  SRAO`Time, {
+                   SRAO`Acc1, SRAO`Acc2, SRAO`Acc3, 
+                    SRAO`Acc4}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                   None}, 
+                  DynamicModule[{}, 
+                   Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInd1, 
+                    Appearance -> "Vertical"]}]], 
+                  LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                  FrameMargins -> 10]; $CellContext`Plt2$$ = Manipulate[
+                  SRAO`ShowAcceleration[
+                  SRAO`TimeL, {
+                   SRAO`Acc1L, SRAO`Acc2L, SRAO`Acc3L, 
+                    SRAO`Acc4L}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                   None}, 
+                  DynamicModule[{}, 
+                   Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInd2, 
+                    Appearance -> "Vertical"]}]], 
+                  LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                  FrameMargins -> 10]; Null]], Method -> "Queued", 
+            ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}]}, {
+           Button[
+           "AO-Algorithm Calculation", 
+            SRAO`SolveA[$CellContext`InitialAngVel, SRAO`Acc1, SRAO`Acc2, 
+              SRAO`Acc3, SRAO`Acc4, SRAO`\[Delta]t, SRAO`Nt]; 
+            SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
+$CellContext`InitialAngVel, SRAO`\[Delta]t, SRAO`Nt]; $CellContext`Plt1$$ = 
+             Manipulate[
+               
+               SRAO`PlotVect[$CellContext`PltId, 
+                SRAO`Time], {$CellContext`PltId, 1, None}, 
+               DynamicModule[{}, 
+                Column[{
+                  Item["Choose one of the output plots:  "], 
+                  RadioButtonBar[
+                   Dynamic[$CellContext`PltId], $CellContext`PltInd, 
+                   Appearance -> "Vertical"]}]], 
+               LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+               FrameMargins -> 10]; $CellContext`Plt2$$ = 
+             SRAO`MakeVideo[
+              SRAO`Time, SRAO`\[Delta]t, 
+               SRAO`Nt]; $CellContext`CenterMessageDialog[
+             "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued", 
+            ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}], 
+           Button[
+           "AO-Algorithm Calculation (using example data)", \
+$CellContext`DataAcc = $CellContext`ExpInput; $CellContext`PosList = \
+$CellContext`ExpPosList; $CellContext`DirerList = $CellContext`ExpDirerList; \
+$CellContext`InitialPos = $CellContext`ExpInitialPos; $CellContext`InitialVel = \
+$CellContext`ExpInitialVel; $CellContext`InitialAngVel = \
+$CellContext`ExpInitialAngVel; 
+            SRAO`LoadData[$CellContext`DataAcc, $CellContext`SelectSet]; 
+            SRAO`Prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
+            SRAO`SolveA[$CellContext`InitialAngVel, SRAO`Acc1, SRAO`Acc2, 
+              SRAO`Acc3, SRAO`Acc4, SRAO`\[Delta]t, SRAO`Nt]; 
+            
+            SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
+$CellContext`InitialAngVel, SRAO`\[Delta]t, SRAO`Nt]; $CellContext`Plt1$$ = 
+             Manipulate[
+               
+               SRAO`PlotVect[$CellContext`PltId, 
+                SRAO`Time], {$CellContext`PltId, 1, None}, 
+               DynamicModule[{}, 
+                Column[{
+                  Item["Choose one of the output plots:  "], 
+                  RadioButtonBar[
+                   Dynamic[$CellContext`PltId], $CellContext`PltInd, 
+                   Appearance -> "Vertical"]}]], 
+               LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+               FrameMargins -> 10]; $CellContext`Plt2$$ = 
+             SRAO`MakeVideo[
+              SRAO`Time, SRAO`\[Delta]t, 
+               SRAO`Nt]; $CellContext`CenterMessageDialog[
+             "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued", 
+            ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}]}}, 
+         Spacings -> {1.5, 0}, Alignment -> Left, 
          BaseStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}], 
         DynamicModuleValues :> {}]], Manipulate`Dump`ThisIsNotAControl}}, 
     Typeset`size$$ = {1016., {247., 252.}}, Typeset`update$$ = 0, 
@@ -1134,965 +1250,534 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
              GrayLevel[0]], 
             Rectangle[{0, 0}, {500, 500}]}, ImageSize -> 500]}, 0, 
          ControlType -> None}, 
-        DynamicModule[{$CellContext`X1 = Null, $CellContext`Y1 = 
-          Null, $CellContext`Z1 = Null, $CellContext`NX1X = 
-          Null, $CellContext`NX1Y = Null, $CellContext`NX1Z = 
-          Null, $CellContext`NY1X = Null, $CellContext`NY1Y = 
-          Null, $CellContext`NY1Z = Null, $CellContext`NZ1X = 
-          Null, $CellContext`NZ1Y = Null, $CellContext`NZ1Z = 
-          Null, $CellContext`DataAcc1 = Null, $CellContext`X2 = 
-          Null, $CellContext`Y2 = Null, $CellContext`Z2 = 
-          Null, $CellContext`NX2X = Null, $CellContext`NX2Y = 
-          Null, $CellContext`NX2Z = Null, $CellContext`NY2X = 
-          Null, $CellContext`NY2Y = Null, $CellContext`NY2Z = 
-          Null, $CellContext`NZ2X = Null, $CellContext`NZ2Y = 
-          Null, $CellContext`NZ2Z = Null, $CellContext`DataAcc2 = 
-          Null, $CellContext`X3 = Null, $CellContext`Y3 = 
-          Null, $CellContext`Z3 = Null, $CellContext`NX3X = 
-          Null, $CellContext`NX3Y = Null, $CellContext`NX3Z = 
-          Null, $CellContext`NY3X = Null, $CellContext`NY3Y = 
-          Null, $CellContext`NY3Z = Null, $CellContext`NZ3X = 
-          Null, $CellContext`NZ3Y = Null, $CellContext`NZ3Z = 
-          Null, $CellContext`DataAcc3 = Null, $CellContext`X4 = 
-          Null, $CellContext`Y4 = Null, $CellContext`Z4 = 
-          Null, $CellContext`NX4X = Null, $CellContext`NX4Y = 
-          Null, $CellContext`NX4Z = Null, $CellContext`NY4X = 
-          Null, $CellContext`NY4Y = Null, $CellContext`NY4Z = 
-          Null, $CellContext`NZ4X = Null, $CellContext`NZ4Y = 
-          Null, $CellContext`NZ4Z = Null, $CellContext`DataAcc4 = 
-          Null, $CellContext`X5 = Null, $CellContext`Y5 = 
-          Null, $CellContext`Z5 = Null, $CellContext`X0 = 
-          Null, $CellContext`Y0 = Null, $CellContext`Z0 = 
-          Null, $CellContext`Vx = Null, $CellContext`Vy = 
-          Null, $CellContext`Vz = Null, $CellContext`\[Omega]x = 
-          Null, $CellContext`\[Omega]y, $CellContext`\[Omega]z, \
-$CellContext`PosList, $CellContext`DirerList, $CellContext`InitialPos, \
-$CellContext`InitialVel, $CellContext`InitialAngVel, $CellContext`InputPanel = 
-          Row[{
-             Column[{
-               Style["Accelerometer1", Bold], 
-               Row[{
-                 Item["Position: "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "X", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Y", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Z", 
-                    FieldSize -> {2.85, 1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+        DynamicModule[{$CellContext`X1 = 0, $CellContext`Y1 = 
+          0, $CellContext`Z1 = 0.83, $CellContext`NX1X = 1, $CellContext`NX1Y = 
+          0, $CellContext`NX1Z = 0, $CellContext`NY1X = 0, $CellContext`NY1Y = 
+          1, $CellContext`NY1Z = 0, $CellContext`NZ1X = 0, $CellContext`NZ1Y = 
+          0, $CellContext`NZ1Z = 1, $CellContext`DataAcc = 
+          Null, $CellContext`X2 = 0, $CellContext`Y2 = 0.1, $CellContext`Z2 = 
+          0.75, $CellContext`NX2X = 1, $CellContext`NX2Y = 
+          0, $CellContext`NX2Z = 0, $CellContext`NY2X = 0, $CellContext`NY2Y = 
+          1, $CellContext`NY2Z = 0, $CellContext`NZ2X = 0, $CellContext`NZ2Y = 
+          0, $CellContext`NZ2Z = 1, $CellContext`X3 = 0.15, $CellContext`Y3 = 
+          0, $CellContext`Z3 = 0.75, $CellContext`NX3X = 1, $CellContext`NX3Y = 
+          0, $CellContext`NX3Z = 0, $CellContext`NY3X = 0, $CellContext`NY3Y = 
+          1, $CellContext`NY3Z = 0, $CellContext`NZ3X = 0, $CellContext`NZ3Y = 
+          0, $CellContext`NZ3Z = 1, $CellContext`X4 = -0.15, $CellContext`Y4 = 
+          0, $CellContext`Z4 = 0.75, $CellContext`NX4X = 0, $CellContext`NX4Y = 
+          1, $CellContext`NX4Z = 0, $CellContext`NY4X = -1, $CellContext`NY4Y = 
+          0, $CellContext`NY4Z = 0, $CellContext`NZ4X = 0, $CellContext`NZ4Y = 
+          0, $CellContext`NZ4Z = 1, $CellContext`X5 = 0, $CellContext`Y5 = 
+          0, $CellContext`Z5 = 0.67, $CellContext`X0 = 0, $CellContext`Y0 = 
+          0, $CellContext`Z0 = 0.75, $CellContext`Vx = 0.75, $CellContext`Vy = 
+          0, $CellContext`Vz = 0, $CellContext`\[Omega]x = 
+          5., $CellContext`\[Omega]y = 5., $CellContext`\[Omega]z = 
+          5., $CellContext`slct1 = 1, $CellContext`slct2 = 
+          2, $CellContext`slct3 = 3, $CellContext`slct4 = 
+          4, $CellContext`SelectSet = {1, 2, 3, 
+           4}, $CellContext`PosList, $CellContext`DirerList, \
+$CellContext`InitialPos, $CellContext`InitialVel, $CellContext`InitialAngVel, \
+$CellContext`InputPanel = Grid[{{
+              Row[{
+                Column[{
+                  Item[
+                   Style["Accelerometer 1", Bold], Alignment -> Center], 
+                  Row[{
+                    Item["Position: "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`X1], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y1], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z1], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \nStyleBox[\"x\",\n\
+FontWeight->\"Plain\"]],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\
+\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX1X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX1Y], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX1Z], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
 FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item["Data File: "], 
-                 Button[
-                 "Attach File", 
-                  Null = SystemDialogInput[
-                    "FileOpen", WindowTitle -> "Choose working directory"]; 
-                  Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-             Column[{
-               Style["Accelerometer2", Bold], 
-               Row[{
-                 Item["Position: "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "X", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Y", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Z", 
-                    FieldSize -> {2.85, 1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
                     
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY1X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY1Y], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY1Z], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \nStyleBox[\"z\",\n\
+FontWeight->\"Plain\"]],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\
+\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ1X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ1Y], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Position in data file\!\(\*\nStyleBox[\":\",\n\
 FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+                    InputField[
+                    Dynamic[$CellContext`slct1], Number, FieldHint -> "1", 
+                    FieldSize -> {1.5, 1}]}]}, Left], 
+                Column[{
+                  Item[
+                   Style["Accelerometer 2", Bold], Alignment -> Center], 
+                  Row[{
+                    Item["Position: "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`X2], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y2], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z2], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \nStyleBox[\"x\",\n\
+FontWeight->\"Plain\"]],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\
+\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX2X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
                     
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY2X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY2Y], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item["Data File: "], 
-                 Button[
-                 "Attach File", 
-                  Null = SystemDialogInput[
-                    "FileOpen", WindowTitle -> "Choose working directory"]; 
-                  Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-             Column[{
-               Style["Accelerometer3", Bold], 
-               Row[{
-                 Item["Position: "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "X", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Y", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Z", 
-                    FieldSize -> {2.85, 1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \nStyleBox[\"z\",\n\
+FontWeight->\"Plain\"]],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\
+\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Position in data file\!\(\*\nStyleBox[\":\",\n\
 FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+                    InputField[
+                    Dynamic[$CellContext`slct2], Number, FieldHint -> "2", 
+                    FieldSize -> {1.5, 1}]}]}, Left]}, 
+               Spacer[10]], 
+              Row[{
+                Column[{
+                  Item[
+                   Style["Accelerometer 3", Bold], Alignment -> Center], 
+                  Row[{
+                    Item["Position: "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`X3], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y3], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z3], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \nStyleBox[\"x\",\n\
+FontWeight->\"Plain\"]],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\
+\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX3X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX3Y], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX3Z], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
 FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+                    
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY3X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY3Y], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY3Z], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \nStyleBox[\"z\",\n\
+FontWeight->\"Plain\"]],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\
+\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Position in data file\!\(\*\nStyleBox[\":\",\n\
 FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+                    InputField[
+                    Dynamic[$CellContext`slct3], Number, FieldHint -> "3", 
+                    FieldSize -> {1.5, 1}]}]}, Left], 
+                Column[{
+                  Item[
+                   Style["Accelerometer 4", Bold], Alignment -> Center], 
+                  Row[{
+                    Item["Position: "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`X4], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y4], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z4], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \nStyleBox[\"x\",\n\
+FontWeight->\"Plain\"]],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\
+\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX4X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX4Y], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX4Z], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item["Data File: "], 
-                 Button[
-                 "Attach File", 
-                  Null = SystemDialogInput[
-                    "FileOpen", WindowTitle -> "Choose working directory"]; 
-                  Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-             Column[{
-               Style["Accelerometer4", Bold], 
-               Row[{
-                 Item["Position: "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "X", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Y", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Z", 
-                    FieldSize -> {2.85, 1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
 FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+                    
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY4X], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY4Y], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY4Z], Number, FieldHint -> 
                     "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Direction \!\(\*\nStyleBox[SubscriptBox[\n\
+StyleBox[\"N\",\nFontSlant->\"Italic\"], \nStyleBox[\"z\",\n\
+FontWeight->\"Plain\"]],\nFontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\
+\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                    Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                    Spacer[1]]}], 
+                  Row[{
+                    Item[
+                    "Position in data file\!\(\*\nStyleBox[\":\",\n\
 FontWeight->\"Plain\"]\) "], 
+                    InputField[
+                    Dynamic[$CellContext`slct4], Number, FieldHint -> "4", 
+                    FieldSize -> {1.5, 1}]}]}, Left]}, 
+               Spacer[10]]}, {
+              Spacer[10], 
+              Spacer[10]}, {
+              Grid[{{
+                 Item["Position of Point of Interest (PoI): "], 
                  Row[{
                    InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
+                    Dynamic[$CellContext`X5], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
                    InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
+                    Dynamic[$CellContext`Y5], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
                    InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item["Data File: "], 
-                 Button[
-                 "Attach File", 
-                  Null = SystemDialogInput[
-                    "FileOpen", WindowTitle -> "Choose working directory"]; 
-                  Null, Method -> "Queued", ImageSize -> 150]}]}, Center]}, 
-            Spacer[10]], $CellContext`PointOfInterest = Grid[{{
-              Item["Position of Point of Interest (PoI): "], 
-              Row[{
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "X", 
-                 FieldSize -> {2.85, 1}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "Y", 
-                 FieldSize -> {2.85, 1}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "Z", 
-                 FieldSize -> {2.85, 1}]}, 
-               Spacer[1]]}, {
-              Item["Headform initial position: "], 
-              Row[{
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "X", 
-                 FieldSize -> {2.85, 1}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "Y", 
-                 FieldSize -> {2.85, 1}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "Z", 
-                 FieldSize -> {2.85, 1}]}, 
-               Spacer[1]]}, {
-              Item["Headform initial velocity: "], 
-              Row[{
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(x\)]\)", FieldSize -> {2.85, 1.2}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(y\)]\)", FieldSize -> {2.85, 1.2}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(z\)]\)", FieldSize -> {2.85, 1.2}]}, 
-               Spacer[1]]}, {
-              Item["Headform initial angular velocity: "], 
-              Row[{
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\(\[Omega]\), \(x\)]\)", 
-                 FieldSize -> {2.85, 1.2}], 
-                InputField[
-                 Dynamic[$CellContext`\[Omega]y], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\(\[Omega]\), \(y\)]\)", 
-                 FieldSize -> {2.85, 1.2}], 
-                InputField[
-                 Dynamic[$CellContext`\[Omega]z], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\(\[Omega]\), \(z\)]\)", 
-                 FieldSize -> {2.85, 1.2}]}, 
-               Spacer[1]]}}, Alignment -> 
-            Left], $CellContext`InputList, $CellContext`RunButton = Row[{
-             Button["AO-Algorithm Calculation", 
-              If[
-               
-               AnyTrue[{$CellContext`X1, $CellContext`Y1, $CellContext`Z1, \
+                    Dynamic[$CellContext`Z5], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                  Spacer[1]]}, {
+                 Item["Reference Point initial position: "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`X0], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Y0], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                   InputField[
+                    Dynamic[$CellContext`Z0], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                  Spacer[1]]}}, Alignment -> Left], 
+              Grid[{{
+                 Item["Reference Point initial velocity: "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`Vx], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(x\)]\)", FieldSize -> {3.2, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`Vy], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(y\)]\)", FieldSize -> {3.2, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`Vz], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(z\)]\)", FieldSize -> {3.2, 1.2}]}, 
+                  Spacer[1]]}, {
+                 Item["Headform initial angular velocity: "], 
+                 Row[{
+                   InputField[
+                    Dynamic[$CellContext`\[Omega]x], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[\(\[Omega]\), \(x\)]\)", 
+                    FieldSize -> {3.2, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`\[Omega]y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[\(\[Omega]\), \(y\)]\)", 
+                    FieldSize -> {3.2, 1.2}], 
+                   InputField[
+                    Dynamic[$CellContext`\[Omega]z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[\(\[Omega]\), \(z\)]\)", 
+                    FieldSize -> {3.2, 1.2}]}, 
+                  Spacer[1]]}}, Alignment -> Left]}, {
+              Button[
+              "Attach Data File", $CellContext`DataAcc = 
+                SystemDialogInput[
+                 "FileOpen", WindowTitle -> "Choose working directory"]; Null,
+                Method -> "Queued", ImageSize -> {450, 40}, 
+               BaseStyle -> {FontSize -> 18}], 
+              Button["Load and Check Data File", 
+               If[
+                
+                AnyTrue[{$CellContext`X1, $CellContext`Y1, $CellContext`Z1, \
 $CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z, $CellContext`NY1X, \
 $CellContext`NY1Y, $CellContext`NY1Z, $CellContext`NZ1X, $CellContext`NZ1Y, \
-$CellContext`NZ1Z, $CellContext`DataAcc1, $CellContext`X2, $CellContext`Y2, \
-$CellContext`Z2, $CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z, \
-$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z, $CellContext`NZ2X, \
-$CellContext`NZ2Y, $CellContext`NZ2Z, $CellContext`DataAcc2, $CellContext`X3, \
-$CellContext`Y3, $CellContext`Z3, $CellContext`NX3X, $CellContext`NX3Y, \
-$CellContext`NX3Z, $CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z, \
-$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z, \
-$CellContext`DataAcc3, $CellContext`X4, $CellContext`Y4, $CellContext`Z4, \
+$CellContext`NZ1Z, $CellContext`X2, $CellContext`Y2, $CellContext`Z2, \
+$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z, $CellContext`NY2X, \
+$CellContext`NY2Y, $CellContext`NY2Z, $CellContext`NZ2X, $CellContext`NZ2Y, \
+$CellContext`NZ2Z, $CellContext`X3, $CellContext`Y3, $CellContext`Z3, \
+$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z, $CellContext`NY3X, \
+$CellContext`NY3Y, $CellContext`NY3Z, $CellContext`NZ3X, $CellContext`NZ3Y, \
+$CellContext`NZ3Z, $CellContext`X4, $CellContext`Y4, $CellContext`Z4, \
 $CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z, $CellContext`NY4X, \
 $CellContext`NY4Y, $CellContext`NY4Z, $CellContext`NZ4X, $CellContext`NZ4Y, \
-$CellContext`NZ4Z, $CellContext`DataAcc4, $CellContext`X5, $CellContext`Y5, \
-$CellContext`Z5, $CellContext`X0, $CellContext`Y0, $CellContext`Z0, \
-$CellContext`Vx, $CellContext`Vy, $CellContext`Vz, $CellContext`\[Omega]x, \
-$CellContext`\[Omega]y, $CellContext`\[Omega]z}, # === 
-                Null& ], $CellContext`CenterMessageDialog[
-                "Please check input values."]; 
-               Null, $CellContext`PosList = {{$CellContext`X1, \
-$CellContext`Y1, $CellContext`Z1}, {$CellContext`X2, $CellContext`Y2, \
-$CellContext`Z2}, {$CellContext`X3, $CellContext`Y3, $CellContext`Z3}, \
-{$CellContext`X4, $CellContext`Y4, $CellContext`Z4}, {$CellContext`X5, \
-$CellContext`Y5, $CellContext`Z5}}; $CellContext`DirerList = \
-{{{$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z}, \
-{$CellContext`NY1X, $CellContext`NY1Y, $CellContext`NY1Z}, \
-{$CellContext`NZ1X, $CellContext`NZ1Y, $CellContext`NZ1Z}}, \
-{{$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z}, \
-{$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z}, \
-{$CellContext`NZ2X, $CellContext`NZ2Y, $CellContext`NZ2Z}}, \
-{{$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z}, \
-{$CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z}, \
-{$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z}}, \
-{{$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z}, \
-{$CellContext`NY4X, $CellContext`NY4Y, $CellContext`NY4Z}, \
-{$CellContext`NZ4X, $CellContext`NZ4Y, $CellContext`NZ4Z}}}; \
-$CellContext`InputList = {$CellContext`DataAcc1, $CellContext`DataAcc2, \
-$CellContext`DataAcc3, $CellContext`DataAcc4}; $CellContext`InitialPos = \
-{$CellContext`X0, $CellContext`Y0, $CellContext`Z0}; $CellContext`InitialVel = \
+$CellContext`NZ4Z, $CellContext`X5, $CellContext`Y5, $CellContext`Z5, \
+$CellContext`X0, $CellContext`Y0, $CellContext`Z0, $CellContext`Vx, \
+$CellContext`Vy, $CellContext`Vz, $CellContext`\[Omega]x, $CellContext`\
+\[Omega]y, $CellContext`\[Omega]z, $CellContext`DataAcc}, # === 
+                 Null& ], $CellContext`CenterMessageDialog[
+                 "Please check and make sure all inputs fields are filled \
+in."]; Null, $CellContext`PosList = {{$CellContext`X1, $CellContext`Y1, \
+$CellContext`Z1}, {$CellContext`X2, $CellContext`Y2, $CellContext`Z2}, \
+{$CellContext`X3, $CellContext`Y3, $CellContext`Z3}, {$CellContext`X4, \
+$CellContext`Y4, $CellContext`Z4}, {$CellContext`X5, $CellContext`Y5, \
+$CellContext`Z5}}; $CellContext`DirerList = {{{$CellContext`NX1X, \
+$CellContext`NX1Y, $CellContext`NX1Z}, {$CellContext`NY1X, $CellContext`NY1Y, \
+$CellContext`NY1Z}, {$CellContext`NZ1X, $CellContext`NZ1Y, \
+$CellContext`NZ1Z}}, {{$CellContext`NX2X, $CellContext`NX2Y, \
+$CellContext`NX2Z}, {$CellContext`NY2X, $CellContext`NY2Y, \
+$CellContext`NY2Z}, {$CellContext`NZ2X, $CellContext`NZ2Y, \
+$CellContext`NZ2Z}}, {{$CellContext`NX3X, $CellContext`NX3Y, \
+$CellContext`NX3Z}, {$CellContext`NY3X, $CellContext`NY3Y, \
+$CellContext`NY3Z}, {$CellContext`NZ3X, $CellContext`NZ3Y, \
+$CellContext`NZ3Z}}, {{$CellContext`NX4X, $CellContext`NX4Y, \
+$CellContext`NX4Z}, {$CellContext`NY4X, $CellContext`NY4Y, \
+$CellContext`NY4Z}, {$CellContext`NZ4X, $CellContext`NZ4Y, \
+$CellContext`NZ4Z}}}; $CellContext`InitialPos = {$CellContext`X0, \
+$CellContext`Y0, $CellContext`Z0}; $CellContext`InitialVel = \
 {$CellContext`Vx, $CellContext`Vy, $CellContext`Vz}; \
 $CellContext`InitialAngVel = {$CellContext`\[Omega]x, $CellContext`\[Omega]y, \
-$CellContext`\[Omega]z}; SRAO`LoadData[$CellContext`InputList]; 
-               SRAO`prepocessing[$CellContext`PosList, \
-$CellContext`DirerList]; SRAO`SolveA[$CellContext`InitialAngVel]; 
-               SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
-$CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
-                  SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
-                   None}, 
-                  DynamicModule[{}, 
-                   Column[{
-                    Item["Choose one of the output plots:  "], 
+$CellContext`\[Omega]z}; $CellContext`SelectSet = {$CellContext`slct1, \
+$CellContext`slct2, $CellContext`slct3, $CellContext`slct4}; 
+                SRAO`LoadData[$CellContext`DataAcc, $CellContext`SelectSet]; 
+                SRAO`Prepocessing[$CellContext`PosList, \
+$CellContext`DirerList]; If[SRAO`OutInd == 1, $CellContext`Plt1$$ = Manipulate[
+                    SRAO`ShowAcceleration[
+                    SRAO`Time, {
+                    SRAO`Acc1, SRAO`Acc2, SRAO`Acc3, 
+                    SRAO`Acc4}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                    DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
                     RadioButtonBar[
-                    Dynamic[$CellContext`PltId], $CellContext`PltInd, 
+                    Dynamic[$CellContext`PltId], $CellContext`InpInds, 
                     Appearance -> "Vertical"]}]], 
-                  LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
-                  FrameMargins -> 10]; $CellContext`Plt2$$ = 
-                SRAO`MakeVideo[]; $CellContext`CenterMessageDialog[
-                "AO-Algorithm Calculation is done!"]; Null], Method -> 
-              "Queued", ImageSize -> {400, 50}, 
-              BaseStyle -> {FontSize -> 18}], 
-             Button[
-             "AO-Algorithm Calculation (using example data)", \
-$CellContext`InputList = Map[URLDownload[
-                  StringJoin[
-                  "https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/\
-master/ExampleData/Acc", 
-                   IntegerString[#], ".txt"]]& , 
-                 Range[4]]; $CellContext`PosList = {{0, 0, 0.83}, {
-                 0, 0.1, 0.75}, {0.15, 0, 0.75}, {-0.15, 0, 0.75}, {
-                 0, 0, 0.67}}; $CellContext`DirerList = {{{1, 0, 0}, {0, 1, 
-                0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 
-                0}, {0, 1, 0}, {0, 0, 1}}, {{0, 1, 0}, {-1, 0, 0}, {0, 0, 
-                1}}}; $CellContext`InitialPos = {
-                0, 0, 0.75}; $CellContext`InitialVel = {
-                0.75, 0, 0}; $CellContext`InitialAngVel = {5., 5., 5.}; 
-              SRAO`LoadData[$CellContext`InputList]; 
-              SRAO`prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
-              SRAO`SolveA[$CellContext`InitialAngVel]; 
-              SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
-$CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
-                 
-                 SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
-                  None}, 
-                 DynamicModule[{}, 
-                  Column[{
-                    Item["Choose one of the output plots:  "], 
+                    LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"},
+                     FrameMargins -> 10]; $CellContext`Plt2$$ = 
+                   Graphics[{White, 
+                    EdgeForm[Black], 
+                    Rectangle[{0, 0}, {500, 500}]}, ImageSize -> 500]; 
+                  Null, $CellContext`Plt1$$ = Manipulate[
+                    SRAO`ShowAcceleration[
+                    SRAO`Time, {
+                    SRAO`Acc1, SRAO`Acc2, SRAO`Acc3, 
+                    SRAO`Acc4}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                    DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
                     RadioButtonBar[
-                    Dynamic[$CellContext`PltId], $CellContext`PltInd, 
+                    Dynamic[$CellContext`PltId], $CellContext`InpInd1, 
                     Appearance -> "Vertical"]}]], 
-                 LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
-                 FrameMargins -> 10]; $CellContext`Plt2$$ = 
-               SRAO`MakeVideo[]; $CellContext`CenterMessageDialog[
-               "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued",
-               ImageSize -> {550, 50}, BaseStyle -> {FontSize -> 18}]}, 
-            Spacer[10]], $CellContext`PltChoose, $CellContext`PltId = 1}, 
-         Column[{
-           Row[{
-             Column[{
-               Style["Accelerometer1", Bold], 
-               Row[{
-                 Item["Position: "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "X", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Y", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Z", 
-                    FieldSize -> {2.85, 1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item["Data File: "], 
-                 Button[
-                 "Attach File", 
-                  Null = SystemDialogInput[
-                    "FileOpen", WindowTitle -> "Choose working directory"]; 
-                  Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-             Column[{
-               Style["Accelerometer2", Bold], 
-               Row[{
-                 Item["Position: "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "X", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Y", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Z", 
-                    FieldSize -> {2.85, 1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item["Data File: "], 
-                 Button[
-                 "Attach File", 
-                  Null = 
-                   SystemDialogInput[
-                    "FileOpen", WindowTitle -> "Choose working directory"]; 
-                  Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-             Column[{
-               Style["Accelerometer3", Bold], 
-               Row[{
-                 Item["Position: "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "X", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Y", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Z", 
-                    FieldSize -> {2.85, 1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item["Data File: "], 
-                 Button[
-                 "Attach File", 
-                  Null = SystemDialogInput[
-                    "FileOpen", WindowTitle -> "Choose working directory"]; 
-                  Null, Method -> "Queued", ImageSize -> 150]}]}, Center], 
-             Column[{
-               Style["Accelerometer4", Bold], 
-               Row[{
-                 Item["Position: "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "X", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Y", 
-                    FieldSize -> {2.85, 1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> "Z", 
-                    FieldSize -> {2.85, 1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
-FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
-                 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.1, 1.2}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.1, 1.2}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item[
-                 "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
-FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
-FontWeight->\"Plain\"]\) "], 
-                 Row[{
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.1, 1.1}], 
-                   InputField[
-                    Dynamic[Null], Number, FieldHint -> 
-                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
-FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.1, 1.1}]}, 
-                  Spacer[1]]}], 
-               Row[{
-                 Item["Data File: "], 
-                 Button[
-                 "Attach File", 
-                  Null = SystemDialogInput[
-                    "FileOpen", WindowTitle -> "Choose working directory"]; 
-                  Null, Method -> "Queued", ImageSize -> 150]}]}, Center]}, 
-            Spacer[10]], 
-           Grid[{{
-              Item["Position of Point of Interest (PoI): "], 
-              Row[{
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "X", 
-                 FieldSize -> {2.85, 1}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "Y", 
-                 FieldSize -> {2.85, 1}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "Z", 
-                 FieldSize -> {2.85, 1}]}, 
-               Spacer[1]]}, {
-              Item["Headform initial position: "], 
-              Row[{
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "X", 
-                 FieldSize -> {2.85, 1}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "Y", 
-                 FieldSize -> {2.85, 1}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> "Z", 
-                 FieldSize -> {2.85, 1}]}, 
-               Spacer[1]]}, {
-              Item["Headform initial velocity: "], 
-              Row[{
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(x\)]\)", FieldSize -> {2.85, 1.2}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(y\)]\)", FieldSize -> {2.85, 1.2}], 
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
-FontSlant->\"Italic\"], \(z\)]\)", FieldSize -> {2.85, 1.2}]}, 
-               Spacer[1]]}, {
-              Item["Headform initial angular velocity: "], 
-              Row[{
-                InputField[
-                 Dynamic[Null], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\(\[Omega]\), \(x\)]\)", 
-                 FieldSize -> {2.85, 1.2}], 
-                InputField[
-                 Dynamic[$CellContext`\[Omega]y], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\(\[Omega]\), \(y\)]\)", 
-                 FieldSize -> {2.85, 1.2}], 
-                InputField[
-                 Dynamic[$CellContext`\[Omega]z], Number, FieldHint -> 
-                 "\!\(\*SubscriptBox[\(\[Omega]\), \(z\)]\)", 
-                 FieldSize -> {2.85, 1.2}]}, 
-               Spacer[1]]}}, Alignment -> Left], 
-           Row[{
-             Button["AO-Algorithm Calculation", 
-              If[
-               
-               AnyTrue[{$CellContext`X1, $CellContext`Y1, $CellContext`Z1, \
-$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z, $CellContext`NY1X, \
-$CellContext`NY1Y, $CellContext`NY1Z, $CellContext`NZ1X, $CellContext`NZ1Y, \
-$CellContext`NZ1Z, $CellContext`DataAcc1, $CellContext`X2, $CellContext`Y2, \
-$CellContext`Z2, $CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z, \
-$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z, $CellContext`NZ2X, \
-$CellContext`NZ2Y, $CellContext`NZ2Z, $CellContext`DataAcc2, $CellContext`X3, \
-$CellContext`Y3, $CellContext`Z3, $CellContext`NX3X, $CellContext`NX3Y, \
-$CellContext`NX3Z, $CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z, \
-$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z, \
-$CellContext`DataAcc3, $CellContext`X4, $CellContext`Y4, $CellContext`Z4, \
-$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z, $CellContext`NY4X, \
-$CellContext`NY4Y, $CellContext`NY4Z, $CellContext`NZ4X, $CellContext`NZ4Y, \
-$CellContext`NZ4Z, $CellContext`DataAcc4, $CellContext`X5, $CellContext`Y5, \
-$CellContext`Z5, $CellContext`X0, $CellContext`Y0, $CellContext`Z0, \
-$CellContext`Vx, $CellContext`Vy, $CellContext`Vz, $CellContext`\[Omega]x, \
-$CellContext`\[Omega]y, $CellContext`\[Omega]z}, # === 
-                Null& ], $CellContext`CenterMessageDialog[
-                "Please check input values."]; 
-               Null, $CellContext`PosList = {{$CellContext`X1, \
-$CellContext`Y1, $CellContext`Z1}, {$CellContext`X2, $CellContext`Y2, \
-$CellContext`Z2}, {$CellContext`X3, $CellContext`Y3, $CellContext`Z3}, \
-{$CellContext`X4, $CellContext`Y4, $CellContext`Z4}, {$CellContext`X5, \
-$CellContext`Y5, $CellContext`Z5}}; $CellContext`DirerList = \
-{{{$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z}, \
-{$CellContext`NY1X, $CellContext`NY1Y, $CellContext`NY1Z}, \
-{$CellContext`NZ1X, $CellContext`NZ1Y, $CellContext`NZ1Z}}, \
-{{$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z}, \
-{$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z}, \
-{$CellContext`NZ2X, $CellContext`NZ2Y, $CellContext`NZ2Z}}, \
-{{$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z}, \
-{$CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z}, \
-{$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z}}, \
-{{$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z}, \
-{$CellContext`NY4X, $CellContext`NY4Y, $CellContext`NY4Z}, \
-{$CellContext`NZ4X, $CellContext`NZ4Y, $CellContext`NZ4Z}}}; \
-$CellContext`InputList = {$CellContext`DataAcc1, $CellContext`DataAcc2, \
-$CellContext`DataAcc3, $CellContext`DataAcc4}; $CellContext`InitialPos = \
-{$CellContext`X0, $CellContext`Y0, $CellContext`Z0}; $CellContext`InitialVel = \
-{$CellContext`Vx, $CellContext`Vy, $CellContext`Vz}; \
-$CellContext`InitialAngVel = {$CellContext`\[Omega]x, $CellContext`\[Omega]y, \
-$CellContext`\[Omega]z}; SRAO`LoadData[$CellContext`InputList]; 
-               SRAO`prepocessing[$CellContext`PosList, \
-$CellContext`DirerList]; SRAO`SolveA[$CellContext`InitialAngVel]; 
+                    LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"},
+                     FrameMargins -> 10]; $CellContext`Plt2$$ = Manipulate[
+                    SRAO`ShowAcceleration[
+                    SRAO`TimeL, {
+                    SRAO`Acc1L, SRAO`Acc2L, SRAO`Acc3L, 
+                    SRAO`Acc4L}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                    DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInd2, 
+                    Appearance -> "Vertical"]}]], 
+                    LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"},
+                     FrameMargins -> 10]; Null]], Method -> "Queued", 
+               ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}]}, {
+              Button[
+              "AO-Algorithm Calculation", 
+               SRAO`SolveA[$CellContext`InitialAngVel, SRAO`Acc1, SRAO`Acc2, 
+                 SRAO`Acc3, SRAO`Acc4, SRAO`\[Delta]t, SRAO`Nt]; 
                SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
-$CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
+$CellContext`InitialAngVel, SRAO`\[Delta]t, SRAO`Nt]; $CellContext`Plt1$$ = 
+                Manipulate[
                   
-                  SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
-                   None}, 
+                  SRAO`PlotVect[$CellContext`PltId, 
+                   SRAO`Time], {$CellContext`PltId, 1, None}, 
                   DynamicModule[{}, 
                    Column[{
                     Item["Choose one of the output plots:  "], 
@@ -2101,50 +1786,599 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
                     Appearance -> "Vertical"]}]], 
                   LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
                   FrameMargins -> 10]; $CellContext`Plt2$$ = 
-                SRAO`MakeVideo[]; $CellContext`CenterMessageDialog[
-                "AO-Algorithm Calculation is done!"]; Null], Method -> 
-              "Queued", ImageSize -> {400, 50}, 
-              BaseStyle -> {FontSize -> 18}], 
-             Button[
-             "AO-Algorithm Calculation (using example data)", \
-$CellContext`InputList = Map[URLDownload[
-                  StringJoin[
-                  "https://raw.githubusercontent.com/wqfang/AO-Algorithm-App/\
-master/ExampleData/Acc", 
-                   IntegerString[#], ".txt"]]& , 
-                 Range[4]]; $CellContext`PosList = {{0, 0, 0.83}, {
-                 0, 0.1, 0.75}, {0.15, 0, 0.75}, {-0.15, 0, 0.75}, {
-                 0, 0, 0.67}}; $CellContext`DirerList = {{{1, 0, 0}, {0, 1, 
-                0}, {0, 0, 1}}, {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}}, {{1, 0, 
-                0}, {0, 1, 0}, {0, 0, 1}}, {{0, 1, 0}, {-1, 0, 0}, {0, 0, 
-                1}}}; $CellContext`InitialPos = {
-                0, 0, 0.75}; $CellContext`InitialVel = {
-                0.75, 0, 0}; $CellContext`InitialAngVel = {5., 5., 5.}; 
-              SRAO`LoadData[$CellContext`InputList]; 
-              SRAO`prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
-              SRAO`SolveA[$CellContext`InitialAngVel]; 
-              SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
-$CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
-                 
-                 SRAO`PlotVect[$CellContext`PltId], {$CellContext`PltId, 1, 
-                  None}, 
-                 DynamicModule[{}, 
-                  Column[{
+                SRAO`MakeVideo[
+                 SRAO`Time, SRAO`\[Delta]t, 
+                  SRAO`Nt]; $CellContext`CenterMessageDialog[
+                "AO-Algorithm Calculation is done!"]; Null, Method -> 
+               "Queued", ImageSize -> {450, 40}, 
+               BaseStyle -> {FontSize -> 18}], 
+              Button[
+              "AO-Algorithm Calculation (using example data)", \
+$CellContext`DataAcc = $CellContext`ExpInput; $CellContext`PosList = \
+$CellContext`ExpPosList; $CellContext`DirerList = $CellContext`ExpDirerList; \
+$CellContext`InitialPos = $CellContext`ExpInitialPos; $CellContext`InitialVel = \
+$CellContext`ExpInitialVel; $CellContext`InitialAngVel = \
+$CellContext`ExpInitialAngVel; 
+               SRAO`LoadData[$CellContext`DataAcc, $CellContext`SelectSet]; 
+               SRAO`Prepocessing[$CellContext`PosList, \
+$CellContext`DirerList]; 
+               SRAO`SolveA[$CellContext`InitialAngVel, SRAO`Acc1, SRAO`Acc2, 
+                 SRAO`Acc3, SRAO`Acc4, SRAO`\[Delta]t, SRAO`Nt]; 
+               SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
+$CellContext`InitialAngVel, SRAO`\[Delta]t, SRAO`Nt]; $CellContext`Plt1$$ = 
+                Manipulate[
+                  
+                  SRAO`PlotVect[$CellContext`PltId, 
+                   SRAO`Time], {$CellContext`PltId, 1, None}, 
+                  DynamicModule[{}, 
+                   Column[{
                     Item["Choose one of the output plots:  "], 
                     RadioButtonBar[
                     Dynamic[$CellContext`PltId], $CellContext`PltInd, 
                     Appearance -> "Vertical"]}]], 
-                 LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
-                 FrameMargins -> 10]; $CellContext`Plt2$$ = 
-               SRAO`MakeVideo[]; $CellContext`CenterMessageDialog[
-               "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued",
-               ImageSize -> {550, 50}, BaseStyle -> {FontSize -> 18}]}, 
-            Spacer[10]]}, 
+                  LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                  FrameMargins -> 10]; $CellContext`Plt2$$ = 
+                SRAO`MakeVideo[
+                 SRAO`Time, SRAO`\[Delta]t, 
+                  SRAO`Nt]; $CellContext`CenterMessageDialog[
+                "AO-Algorithm Calculation is done!"]; Null, Method -> 
+               "Queued", ImageSize -> {450, 40}, 
+               BaseStyle -> {FontSize -> 18}]}}, Spacings -> {1.5, 0}, 
+            Alignment -> Left, 
+            BaseStyle -> {
+             FontSize -> 15, FontFamily -> "Helvetica"}], $CellContext`PltId = 
+          1}, 
+         Grid[{{
+            Row[{
+              Column[{
+                Item[
+                 Style["Accelerometer 1", Bold], Alignment -> Center], 
+                Row[{
+                  Item["Position: "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`X1], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y1], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z1], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX1Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                  
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY1Y], Number, FieldHint -> 
+                    
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ1X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ1Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ1Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Position in data file\!\(\*\nStyleBox[\":\",\nFontWeight->\
+\"Plain\"]\) "], 
+                  InputField[
+                   Dynamic[$CellContext`slct1], Number, FieldHint -> "1", 
+                   FieldSize -> {1.5, 1}]}]}, Left], 
+              Column[{
+                Item[
+                 Style["Accelerometer 2", Bold], Alignment -> Center], 
+                Row[{
+                  Item["Position: "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`X2], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y2], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z2], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                  
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ2X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ2Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ2Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Position in data file\!\(\*\nStyleBox[\":\",\nFontWeight->\
+\"Plain\"]\) "], 
+                  InputField[
+                   Dynamic[$CellContext`slct2], Number, FieldHint -> "2", 
+                   FieldSize -> {1.5, 1}]}]}, Left]}, 
+             Spacer[10]], 
+            Row[{
+              Column[{
+                Item[
+                 Style["Accelerometer 3", Bold], Alignment -> Center], 
+                Row[{
+                  Item["Position: "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`X3], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y3], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z3], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                  
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY3X], Number, FieldHint -> 
+                    
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ3X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ3Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ3Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Position in data file\!\(\*\nStyleBox[\":\",\nFontWeight->\
+\"Plain\"]\) "], 
+                  InputField[
+                   Dynamic[$CellContext`slct3], Number, FieldHint -> "3", 
+                   FieldSize -> {1.5, 1}]}]}, Left], 
+              Column[{
+                Item[
+                 Style["Accelerometer 4", Bold], Alignment -> Center], 
+                Row[{
+                  Item["Position: "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`X4], Number, FieldHint -> "X", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Y4], Number, FieldHint -> "Y", 
+                    FieldSize -> {3.2, 1}], 
+                    InputField[
+                    Dynamic[$CellContext`Z4], Number, FieldHint -> "Z", 
+                    FieldSize -> {3.2, 1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"x\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NX4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NX4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"x\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"],\nFontWeight->\"Bold\",\n\
+FontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\nFontWeight->\"Plain\"]\) "], 
+                  
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NY4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(1\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(2\)]\)", FieldSize -> {2.5, 1.2}], 
+                    InputField[
+                    Dynamic[$CellContext`NY4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"y\"], \(3\)]\)", FieldSize -> {2.5, 1.2}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Direction \!\(\*\nStyleBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \nStyleBox[\"z\",\nFontWeight->\"Plain\"]],\n\
+FontWeight->\"Bold\",\nFontSlant->\"Italic\"]\)\!\(\*\nStyleBox[\":\",\n\
+FontWeight->\"Plain\"]\) "], 
+                  Row[{
+                    InputField[
+                    Dynamic[$CellContext`NZ4X], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(1\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ4Y], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(2\)]\)", FieldSize -> {2.5, 1.1}], 
+                    InputField[
+                    Dynamic[$CellContext`NZ4Z], Number, FieldHint -> 
+                    "\!\(\*SubscriptBox[SubscriptBox[\nStyleBox[\"N\",\n\
+FontSlant->\"Italic\"], \"z\"], \(3\)]\)", FieldSize -> {2.5, 1.1}]}, 
+                   Spacer[1]]}], 
+                Row[{
+                  Item[
+                  "Position in data file\!\(\*\nStyleBox[\":\",\nFontWeight->\
+\"Plain\"]\) "], 
+                  InputField[
+                   Dynamic[$CellContext`slct4], Number, FieldHint -> "4", 
+                   FieldSize -> {1.5, 1}]}]}, Left]}, 
+             Spacer[10]]}, {
+            Spacer[10], 
+            Spacer[10]}, {
+            Grid[{{
+               Item["Position of Point of Interest (PoI): "], 
+               Row[{
+                 InputField[
+                  Dynamic[$CellContext`X5], Number, FieldHint -> "X", 
+                  FieldSize -> {3.2, 1}], 
+                 InputField[
+                  Dynamic[$CellContext`Y5], Number, FieldHint -> "Y", 
+                  FieldSize -> {3.2, 1}], 
+                 InputField[
+                  Dynamic[$CellContext`Z5], Number, FieldHint -> "Z", 
+                  FieldSize -> {3.2, 1}]}, 
+                Spacer[1]]}, {
+               Item["Reference Point initial position: "], 
+               Row[{
+                 InputField[
+                  Dynamic[$CellContext`X0], Number, FieldHint -> "X", 
+                  FieldSize -> {3.2, 1}], 
+                 InputField[
+                  Dynamic[$CellContext`Y0], Number, FieldHint -> "Y", 
+                  FieldSize -> {3.2, 1}], 
+                 InputField[
+                  Dynamic[$CellContext`Z0], Number, FieldHint -> "Z", 
+                  FieldSize -> {3.2, 1}]}, 
+                Spacer[1]]}}, Alignment -> Left], 
+            Grid[{{
+               Item["Reference Point initial velocity: "], 
+               Row[{
+                 InputField[
+                  Dynamic[$CellContext`Vx], Number, FieldHint -> 
+                  "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(x\)]\)", FieldSize -> {3.2, 1.2}], 
+                 InputField[
+                  Dynamic[$CellContext`Vy], Number, FieldHint -> 
+                  "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(y\)]\)", FieldSize -> {3.2, 1.2}], 
+                 InputField[
+                  Dynamic[$CellContext`Vz], Number, FieldHint -> 
+                  "\!\(\*SubscriptBox[\nStyleBox[\"v\",\n\
+FontSlant->\"Italic\"], \(z\)]\)", FieldSize -> {3.2, 1.2}]}, 
+                Spacer[1]]}, {
+               Item["Headform initial angular velocity: "], 
+               Row[{
+                 InputField[
+                  Dynamic[$CellContext`\[Omega]x], Number, FieldHint -> 
+                  "\!\(\*SubscriptBox[\(\[Omega]\), \(x\)]\)", 
+                  FieldSize -> {3.2, 1.2}], 
+                 InputField[
+                  Dynamic[$CellContext`\[Omega]y], Number, FieldHint -> 
+                  "\!\(\*SubscriptBox[\(\[Omega]\), \(y\)]\)", 
+                  FieldSize -> {3.2, 1.2}], 
+                 InputField[
+                  Dynamic[$CellContext`\[Omega]z], Number, FieldHint -> 
+                  "\!\(\*SubscriptBox[\(\[Omega]\), \(z\)]\)", 
+                  FieldSize -> {3.2, 1.2}]}, 
+                Spacer[1]]}}, Alignment -> Left]}, {
+            Button[
+            "Attach Data File", $CellContext`DataAcc = 
+              SystemDialogInput[
+               "FileOpen", WindowTitle -> "Choose working directory"]; Null, 
+             Method -> "Queued", ImageSize -> {450, 40}, 
+             BaseStyle -> {FontSize -> 18}], 
+            Button["Load and Check Data File", 
+             If[
+              
+              AnyTrue[{$CellContext`X1, $CellContext`Y1, $CellContext`Z1, \
+$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z, $CellContext`NY1X, \
+$CellContext`NY1Y, $CellContext`NY1Z, $CellContext`NZ1X, $CellContext`NZ1Y, \
+$CellContext`NZ1Z, $CellContext`X2, $CellContext`Y2, $CellContext`Z2, \
+$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z, $CellContext`NY2X, \
+$CellContext`NY2Y, $CellContext`NY2Z, $CellContext`NZ2X, $CellContext`NZ2Y, \
+$CellContext`NZ2Z, $CellContext`X3, $CellContext`Y3, $CellContext`Z3, \
+$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z, $CellContext`NY3X, \
+$CellContext`NY3Y, $CellContext`NY3Z, $CellContext`NZ3X, $CellContext`NZ3Y, \
+$CellContext`NZ3Z, $CellContext`X4, $CellContext`Y4, $CellContext`Z4, \
+$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z, $CellContext`NY4X, \
+$CellContext`NY4Y, $CellContext`NY4Z, $CellContext`NZ4X, $CellContext`NZ4Y, \
+$CellContext`NZ4Z, $CellContext`X5, $CellContext`Y5, $CellContext`Z5, \
+$CellContext`X0, $CellContext`Y0, $CellContext`Z0, $CellContext`Vx, \
+$CellContext`Vy, $CellContext`Vz, $CellContext`\[Omega]x, $CellContext`\
+\[Omega]y, $CellContext`\[Omega]z, $CellContext`DataAcc}, # === 
+               Null& ], $CellContext`CenterMessageDialog[
+               "Please check and make sure all inputs fields are filled in."]; 
+              Null, $CellContext`PosList = {{$CellContext`X1, \
+$CellContext`Y1, $CellContext`Z1}, {$CellContext`X2, $CellContext`Y2, \
+$CellContext`Z2}, {$CellContext`X3, $CellContext`Y3, $CellContext`Z3}, \
+{$CellContext`X4, $CellContext`Y4, $CellContext`Z4}, {$CellContext`X5, \
+$CellContext`Y5, $CellContext`Z5}}; $CellContext`DirerList = \
+{{{$CellContext`NX1X, $CellContext`NX1Y, $CellContext`NX1Z}, \
+{$CellContext`NY1X, $CellContext`NY1Y, $CellContext`NY1Z}, \
+{$CellContext`NZ1X, $CellContext`NZ1Y, $CellContext`NZ1Z}}, \
+{{$CellContext`NX2X, $CellContext`NX2Y, $CellContext`NX2Z}, \
+{$CellContext`NY2X, $CellContext`NY2Y, $CellContext`NY2Z}, \
+{$CellContext`NZ2X, $CellContext`NZ2Y, $CellContext`NZ2Z}}, \
+{{$CellContext`NX3X, $CellContext`NX3Y, $CellContext`NX3Z}, \
+{$CellContext`NY3X, $CellContext`NY3Y, $CellContext`NY3Z}, \
+{$CellContext`NZ3X, $CellContext`NZ3Y, $CellContext`NZ3Z}}, \
+{{$CellContext`NX4X, $CellContext`NX4Y, $CellContext`NX4Z}, \
+{$CellContext`NY4X, $CellContext`NY4Y, $CellContext`NY4Z}, \
+{$CellContext`NZ4X, $CellContext`NZ4Y, $CellContext`NZ4Z}}}; \
+$CellContext`InitialPos = {$CellContext`X0, $CellContext`Y0, $CellContext`Z0}; \
+$CellContext`InitialVel = {$CellContext`Vx, $CellContext`Vy, $CellContext`Vz}; \
+$CellContext`InitialAngVel = {$CellContext`\[Omega]x, $CellContext`\[Omega]y, \
+$CellContext`\[Omega]z}; $CellContext`SelectSet = {$CellContext`slct1, \
+$CellContext`slct2, $CellContext`slct3, $CellContext`slct4}; 
+              SRAO`LoadData[$CellContext`DataAcc, $CellContext`SelectSet]; 
+              SRAO`Prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
+              If[SRAO`OutInd == 1, $CellContext`Plt1$$ = Manipulate[
+                   SRAO`ShowAcceleration[
+                   SRAO`Time, {
+                    SRAO`Acc1, SRAO`Acc2, SRAO`Acc3, 
+                    SRAO`Acc4}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                   DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInds, 
+                    Appearance -> "Vertical"]}]], 
+                   LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                   FrameMargins -> 10]; $CellContext`Plt2$$ = Graphics[{White, 
+                    EdgeForm[Black], 
+                    Rectangle[{0, 0}, {500, 500}]}, ImageSize -> 500]; 
+                Null, $CellContext`Plt1$$ = Manipulate[
+                   SRAO`ShowAcceleration[
+                   SRAO`Time, {
+                    SRAO`Acc1, SRAO`Acc2, SRAO`Acc3, 
+                    SRAO`Acc4}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                   DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInd1, 
+                    Appearance -> "Vertical"]}]], 
+                   LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                   FrameMargins -> 10]; $CellContext`Plt2$$ = Manipulate[
+                   SRAO`ShowAcceleration[
+                   SRAO`TimeL, {
+                    SRAO`Acc1L, SRAO`Acc2L, SRAO`Acc3L, 
+                    SRAO`Acc4L}, $CellContext`PltId], {$CellContext`PltId, 1, 
+                    None}, 
+                   DynamicModule[{}, 
+                    Column[{
+                    Item["Plot the measurement of:  "], 
+                    RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`InpInd2, 
+                    Appearance -> "Vertical"]}]], 
+                   LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                   FrameMargins -> 10]; Null]], Method -> "Queued", 
+             ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}]}, {
+            Button[
+            "AO-Algorithm Calculation", 
+             SRAO`SolveA[$CellContext`InitialAngVel, SRAO`Acc1, SRAO`Acc2, 
+               SRAO`Acc3, SRAO`Acc4, SRAO`\[Delta]t, SRAO`Nt]; 
+             SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
+$CellContext`InitialAngVel, SRAO`\[Delta]t, SRAO`Nt]; $CellContext`Plt1$$ = 
+              Manipulate[
+                
+                SRAO`PlotVect[$CellContext`PltId, 
+                 SRAO`Time], {$CellContext`PltId, 1, None}, 
+                DynamicModule[{}, 
+                 Column[{
+                   Item["Choose one of the output plots:  "], 
+                   RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`PltInd, 
+                    Appearance -> "Vertical"]}]], 
+                LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                FrameMargins -> 10]; $CellContext`Plt2$$ = 
+              SRAO`MakeVideo[
+               SRAO`Time, SRAO`\[Delta]t, 
+                SRAO`Nt]; $CellContext`CenterMessageDialog[
+              "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued", 
+             ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}], 
+            Button[
+            "AO-Algorithm Calculation (using example data)", \
+$CellContext`DataAcc = $CellContext`ExpInput; $CellContext`PosList = \
+$CellContext`ExpPosList; $CellContext`DirerList = $CellContext`ExpDirerList; \
+$CellContext`InitialPos = $CellContext`ExpInitialPos; $CellContext`InitialVel = \
+$CellContext`ExpInitialVel; $CellContext`InitialAngVel = \
+$CellContext`ExpInitialAngVel; 
+             SRAO`LoadData[$CellContext`DataAcc, $CellContext`SelectSet]; 
+             SRAO`Prepocessing[$CellContext`PosList, $CellContext`DirerList]; 
+             SRAO`SolveA[$CellContext`InitialAngVel, SRAO`Acc1, SRAO`Acc2, 
+               SRAO`Acc3, SRAO`Acc4, SRAO`\[Delta]t, SRAO`Nt]; 
+             SRAO`SolveC[$CellContext`InitialPos, $CellContext`InitialVel, \
+$CellContext`InitialAngVel, SRAO`\[Delta]t, SRAO`Nt]; $CellContext`Plt1$$ = 
+              Manipulate[
+                
+                SRAO`PlotVect[$CellContext`PltId, 
+                 SRAO`Time], {$CellContext`PltId, 1, None}, 
+                DynamicModule[{}, 
+                 Column[{
+                   Item["Choose one of the output plots:  "], 
+                   RadioButtonBar[
+                    Dynamic[$CellContext`PltId], $CellContext`PltInd, 
+                    Appearance -> "Vertical"]}]], 
+                LabelStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}, 
+                FrameMargins -> 10]; $CellContext`Plt2$$ = 
+              SRAO`MakeVideo[
+               SRAO`Time, SRAO`\[Delta]t, 
+                SRAO`Nt]; $CellContext`CenterMessageDialog[
+              "AO-Algorithm Calculation is done!"]; Null, Method -> "Queued", 
+             ImageSize -> {450, 40}, BaseStyle -> {FontSize -> 18}]}}, 
+          Spacings -> {1.5, 0}, Alignment -> Left, 
           BaseStyle -> {FontSize -> 15, FontFamily -> "Helvetica"}], 
          DynamicModuleValues :> {}]}, 
       "Options" :> {ContinuousAction -> False, LocalizeVariables -> True}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{1061., {458., 464.}},
+     ImageSizeCache->{1061., {444., 450.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -2156,15 +2390,16 @@ $CellContext`InitialAngVel]; $CellContext`Plt1$$ = Manipulate[
    StripOnInput->False],
   Manipulate`InterpretManipulate[1]]], "Output",
  CellChangeTimes->{3.8164068595572968`*^9, 3.816406923573676*^9, 
-  3.816478151213114*^9, 3.8164782009880257`*^9},
- CellLabel->"Out[25]=",ExpressionUUID->"5dcada82-f85f-4c46-86ec-58c06f3cf4d0"]
+  3.816478151213114*^9, 3.8164782009880257`*^9, 3.817120890311832*^9, 
+  3.817129683389471*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"bf9b6761-1cff-4d7c-a759-bdc58d20c931"]
 }, Open  ]]
 },
 InitializationCellEvaluation->True,
 InitializationCellWarning->False,
-WindowSize->{1280, 685},
-WindowMargins->{{8, Automatic}, {Automatic, 0}},
-FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (March 18, 2020)",
+WindowSize->{1920, 1035},
+WindowMargins->{{-95, Automatic}, {739, Automatic}},
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (March 25, 2020)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[StyleDefinitions -> "Default.nb"]], 
@@ -2172,7 +2407,7 @@ StyleDefinitions->Notebook[{
     StyleData["Input"]], 
    Cell[
     StyleData["CodeText"]]}, Visible -> False, FrontEndVersion -> 
-  "12.1 for Mac OS X x86 (64-bit) (March 18, 2020)", StyleDefinitions -> 
+  "12.1 for Mac OS X x86 (64-bit) (March 25, 2020)", StyleDefinitions -> 
   "PrivateStylesheetFormatting.nb"],
 ExpressionUUID->"92037f72-fe59-40f3-b538-5db33021b40e"
 ]
@@ -2188,15 +2423,13 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[1486, 35, 1972, 32, 19, "Input",ExpressionUUID->"5fb4ffba-2f6a-4b19-9cc1-578bbaa58b1c",
+Cell[1486, 35, 1971, 32, 19, "Input",ExpressionUUID->"5fb4ffba-2f6a-4b19-9cc1-578bbaa58b1c",
  CellOpen->False,
  InitializationCell->True],
-Cell[3461, 69, 106172, 2090, 941, "Output",ExpressionUUID->"5dcada82-f85f-4c46-86ec-58c06f3cf4d0"]
+Cell[3460, 69, 122109, 2325, 913, "Output",ExpressionUUID->"bf9b6761-1cff-4d7c-a759-bdc58d20c931"]
 }, Open  ]]
 }
 ]
 *)
 
-(* End of internal cache information *)
-
-(* NotebookSignature 1UOlyhsWymzqVW4O#sb0a#d@ *)
+(* NotebookSignature AXkYxorSk6iZJVjSpkE1K@LW *)
