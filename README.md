@@ -34,7 +34,7 @@ Determining the motion and acceleration field of a rigid body using measurements
 </details>
 
 ## Screenshot
-![](images/App_ScreenShot.png  | width=100)
+![](images/App_ScreenShot.png)
 
 This app is developed using Wolfram Language. It takes positions, directions and measurements of 4 accelerometers, position of point of interest and initial conditions of a rigid body as input. After performing calculation using AO-Algorithm, it outputs an interactive plot of multiple choices of variables and a simulation video showing the motion of the rigid body.
 
@@ -111,4 +111,4 @@ Wenqiang Fang - wenqiang_fang@brown.edu
 
 Project Link: https://github.com/AppliedMechanicsLab/AO-Desktop-App
 ## Reference
-Rahaman, Mohammad Masiur, Wenqiang Fang, Alice Lux Fawzi, Yang Wan, and Haneesh Kesari. "An accelerometer-only algorithm for determining the acceleration field of a rigid body, with application in studying the mechanics of mild Traumatic Brain Injury." *Journal of the Mechanics and Physics of Solids* (2020): 104014.
+Rahaman, Mohammad Masiur, Wenqiang Fang, Alice Lux Fawzi, Yang Wan, and Haneesh Kesari. ["An accelerometer-only algorithm for determining the acceleration field of a rigid body, with application in studying the mechanics of mild Traumatic Brain Injury."](https://www.sciencedirect.com/science/article/abs/pii/S0022509620302490) *Journal of the Mechanics and Physics of Solids* (2020): 104014.
