@@ -34,7 +34,7 @@ Determining the motion and acceleration field of a rigid body using measurements
 </details>
 
 ## Screenshot
-![](images/App_ScreenShot.png)
+![](images/App_ScreenShot.png  | width=100)
 
 This app is developed using Wolfram Language. It takes positions, directions and measurements of 4 accelerometers, position of point of interest and initial conditions of a rigid body as input. After performing calculation using AO-Algorithm, it outputs an interactive plot of multiple choices of variables and a simulation video showing the motion of the rigid body.
 
