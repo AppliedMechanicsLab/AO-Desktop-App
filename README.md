@@ -111,4 +111,4 @@ Wenqiang Fang - wenqiang_fang@brown.edu
 
 Project Link: https://github.com/AppliedMechanicsLab/AO-Desktop-App
 ## Reference
-Rahaman, Mohammad Masiur, Wenqiang Fang, Alice Lux Fawzi, Yang Wan, and Haneesh Kesari. ["An accelerometer-only algorithm for determining the acceleration field of a rigid body, with application in studying the mechanics of mild Traumatic Brain Injury."](https://www.sciencedirect.com/science/article/abs/pii/S0022509620302490) *Journal of the Mechanics and Physics of Solids* (2020): 104014.
+Mohammad Masiur Rahaman, Wenqiang Fang, Alice Lux Fawzi, Yang Wan, and Haneesh Kesari. ["An accelerometer-only algorithm for determining the acceleration field of a rigid body, with application in studying the mechanics of mild Traumatic Brain Injury."](https://www.sciencedirect.com/science/article/abs/pii/S0022509620302490) *Journal of the Mechanics and Physics of Solids* (2020): 104014.
